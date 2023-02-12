@@ -1,0 +1,501 @@
+uri	track_name	album_name	artist_name	danceability	energy	key	loudness	mode	speechiness	acousticness	instrumentalness	liveness	valence	tempo	duration_ms	time_signature
+7jP2937OACDPrN53DzO0Ye	Closer	The Boy With No Name	Travis	0.538	0.581	5	-7.816	1	0.0235	0.204	0.0000526	0.13	0.269	108.108	240627	4
+0DRvClQbN9znQ295sx76VC	Dreams Tonite	Antisocialites	Alvvays	0.51	0.622	2	-5.727	1	0.0242	0.0108	0.00000411	0.127	0.424	99.934	196027	4
+75JFxkI2RXiU7L9VXzMkle	The Scientist	A Rush of Blood to the Head	Coldplay	0.557	0.442	5	-7.224	1	0.0243	0.731	0.0000146	0.11	0.213	146.277	309600	4
+0suLngfo7rJoetk7Ub6N8l	Octopus's Garden - Remastered 2009	Abbey Road (Remastered)	The Beatles	0.626	0.512	1	-9.15	0	0.0247	0.155	0.0000465	0.215	0.73	92.225	170720	4
+2NJGAT43AvS7BQvn2017yS	Hey Moon	We Must Become the Pitiless Censors of Ourselves	John Maus	0.573	0.639	0	-7.143	1	0.0247	0.784	0.633	0.0923	0.24	89.575	248707	4
+4JJ5zGKnb1IpERyBrfmb1y	A Rush of Blood to the Head	A Rush of Blood to the Head	Coldplay	0.525	0.472	5	-8.018	1	0.0255	0.156	0.00000439	0.29	0.116	138.39	351400	4
+5pS433WfKO8SVdAX3QYf0A	Wild Horses	Sticky Fingers (Remastered)	The Rolling Stones	0.432	0.389	7	-6.517	1	0.0255	0.687	0.0107	0.0788	0.158	139.506	341773	4
+2a1iMaoWQ5MnvLFBDv4qkf	High and Dry	The Bends	Radiohead	0.419	0.383	4	-11.782	1	0.0256	0.0724	0.0176	0.0896	0.35	87.568	257480	4
+5XeFesFbtLpXzIVDNQP22n	I Wanna Be Yours	AM	Arctic Monkeys	0.464	0.417	0	-9.345	0	0.0256	0.136	0.022	0.0974	0.479	67.528	183956	4
+5jafMI8FLibnjkYTZ33m0c	High And Dry	The Bends	Radiohead	0.418	0.383	4	-11.782	1	0.0257	0.0718	0.0177	0.0896	0.352	87.773	257480	4
+63OQupATfueTdZMWTxW03A	Karma Police	OK Computer	Radiohead	0.36	0.501	7	-9.129	1	0.0258	0.0638	0.0000932	0.172	0.324	74.807	264067	4
+21F3fMG5BEWbUSuwC3dv5I	Homesick - Remastered	Disintegration (Remastered)	The Cure	0.491	0.693	9	-8.68	0	0.0259	0.132	0.727	0.104	0.566	156.085	426013	4
+0q6LuUqGLUiCPP1cbdwFs3	On Melancholy Hill	Plastic Beach	Gorillaz	0.689	0.739	2	-5.81	1	0.026	0.0000151	0.509	0.064	0.578	120.423	233867	4
+1SKPmfSYaPsETbRHaiA18G	Somewhere Only We Know	Hopes And Fears	Keane	0.448	0.665	9	-4.203	1	0.026	0.06	0.0000255	0.0828	0.304	172.004	237147	4
+06KakoES48DwEoAiUIdjmg	I Promise	OK Computer OKNOTOK 1997 2017	Radiohead	0.442	0.435	11	-8.459	0	0.0261	0.392	0.0974	0.0982	0.487	155.204	239227	3
+0aym2LBJBk9DAYuHHutrIl	Hey Jude - Remastered 2015	1 (Remastered)	The Beatles	0.386	0.607	10	-7.7	1	0.0261	0.0112	0.0000138	0.088	0.532	147.207	425653	4
+0rKtyWc8bvkriBthvHKY8d	SLOW DANCING IN THE DARK	BALLADS 1	Joji	0.515	0.479	3	-7.458	1	0.0261	0.544	0.00598	0.191	0.284	88.964	209274	4
+6V9PDDZ2pHQCUleRXvRYQ1	I Promise	OK Computer OKNOTOK 1997 2017	Radiohead	0.441	0.435	11	-8.457	0	0.0261	0.389	0.0974	0.0982	0.487	155.19	239227	3
+0tutU5E5kMR3bY8sZllpoJ	Northern Downpour	Pretty. Odd.	Panic! At The Disco	0.47	0.474	5	-9.406	1	0.0262	0.0643	0	0.0645	0.241	170.173	247773	4
+4QK1qv4mgsfdWmMzp1Z3fx	Khoj (Passing By)	Believe	When Chai Met Toast	0.58	0.636	2	-6.649	1	0.0262	0.191	0.0313	0.0915	0.38	105.037	212572	3
+0nLiqZ6A27jJri2VCalIUs	Nothing Else Matters	Metallica	Metallica	0.553	0.362	4	-11.218	0	0.0263	0.0458	0.00000601	0.075	0.158	142.352	388267	3
+0oxYB9GoOIDrdzniNdKC44	When the Sun Hits	Souvlaki	Slowdive	0.33	0.532	2	-11.764	1	0.0263	0.00101	0.709	0.101	0.218	93.512	285907	4
+3JLrri1xSCui3bzITDJbkk	The Rain Song - Remaster	Houses of the Holy (Remaster)	Led Zeppelin	0.336	0.318	0	-11.412	1	0.0263	0.317	0.0716	0.111	0.24	79.66	459094	4
+56Z7hbyMrndw1naxb6I5Oi	Reckoner	In Rainbows	Radiohead	0.518	0.656	4	-7.438	0	0.0264	0.511	0.156	0.0679	0.203	104.282	290213	4
+63QsFC6m0CaTw2gU0iZa7N	Conrad	I Forget Where We Were	Ben Howard	0.574	0.322	9	-12.41	1	0.0264	0.91	0.519	0.0836	0.178	81.603	368120	4
+1FWsomP9StpCcXNWmJk8Cl	K.	Cigarettes After Sex	Cigarettes After Sex	0.454	0.4	3	-10.261	1	0.0265	0.139	0.846	0.137	0.327	93.719	320030	4
+22v9ZVkWWAYjderL7ZWuuH	Mountains	Folding Leaves	Message To Bears	0.569	0.572	6	-11.363	1	0.0265	0.64	0.56	0.0921	0.658	110.031	234000	4
+2UWdUez9MB9yzL7Y81Mcip	The Suburbs	The Suburbs	Arcade Fire	0.616	0.682	6	-6.148	0	0.0265	0.0578	0.0241	0.342	0.528	117.78	315200	4
+3ZFwuJwUpIl0GeXsvF1ELf	Nothing Else Matters	Metallica	Metallica	0.558	0.364	4	-11.258	0	0.0265	0.0505	0.00000502	0.0753	0.17	142.171	388733	3
+7cs7MLtAWvsdf3w5kBvfK2	Nothing's Gonna Hurt You Baby	EP I.	Cigarettes After Sex	0.508	0.33	4	-14.071	1	0.0265	0.259	0.154	0.114	0.101	96.818	286293	4
+5VgoYN2PNwcRIbxCzmeri0	Heera	Bismillah	Peter Cat Recording Co.	0.66	0.606	0	-11.409	0	0.0266	0.557	0.00547	0.0987	0.77	116.007	379920	4
+0LO7f7ZJg871B8hLTRzrfB	Julia	Mt. Joy	Mt. Joy	0.566	0.412	5	-6.994	1	0.0267	0.681	0.017	0.0741	0.47	81.879	190453	4
+0pQskrTITgmCMyr85tb9qq	Starman - 2012 Remaster	The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)	David Bowie	0.486	0.449	5	-10.298	1	0.0267	0.166	0.00000223	0.54	0.549	100.456	254293	4
+5AIYDx0HUjra5Bn0vZtjmd	Starman - 2012 Remastered Version	The Rise and Fall of Ziggy Stardust and the Spiders from Mars (Remastered Version)	David Bowie	0.475	0.459	5	-10.261	1	0.0267	0.149	0.00000143	0.561	0.537	100.113	254295	4
+0GegHVxeozw3rdjte45Bfx	White Winter Hymnal	Fleet Foxes	Fleet Foxes	0.628	0.5	6	-9.66	0	0.0268	0.44	0	0.244	0.68	124.932	147027	4
+3FzK2g50oLcx8vqETwOn07	Love Songs on the Radio	Ask Me Tomorrow	Mojave 3	0.457	0.25	2	-15.669	1	0.0269	0.899	0.0896	0.109	0.0739	145.879	348400	4
+3UYeU6M7cOG4g2PlAOTvz9	...Like Clockwork	...Like Clockwork	Queens of the Stone Age	0.455	0.341	0	-8.315	0	0.0269	0.737	0.0000467	0.0958	0.165	57.157	324320	4
+6kvJuHxn3BrRhFxLrBEt8c	Woo	7	Beach House	0.394	0.751	0	-7.235	1	0.0269	0.141	0.124	0.212	0.635	164.27	254867	4
+0DAsxISzun85PbsqAfIzeC	Intro	xx	The xx	0.617	0.778	9	-8.871	0	0.027	0.459	0.925	0.128	0.152	100.363	127920	4
+3arsql2gOlBUnTaFpIjHqE	Love Songs on the Radio	Ask Me Tomorrow	Mojave 3	0.45	0.25	2	-15.669	1	0.027	0.898	0.0861	0.109	0.0734	145.971	348400	4
+4hXHlAc9ZOJY5pGbdfuWsa	Laal Ishq	Goliyon Ki Raasleela Ram-Leela (Original Motion Picture Soundtrack)	Arijit Singh	0.512	0.67	3	-5.792	1	0.027	0.034	0	0.309	0.446	105.957	387170	4
+1rxoyGj1QuPoVi8fOft1Kt	Because - Remastered 2009	Abbey Road (Remastered)	The Beatles	0.328	0.249	2	-11.777	1	0.0272	0.754	0.00000577	0.134	0.162	81.257	165667	4
+3Q1DprZauQyNo8KGlY8brZ	Waltzing Back	Waltzing Back	No Vacation	0.558	0.579	7	-8.065	0	0.0272	0.00331	0.916	0.0935	0.487	104.972	192000	4
+4LGF2tDg3878bs0mQPByZ4	Guaranteed	Into The Wild (Music For The Motion Picture)	Eddie Vedder	0.436	0.4	7	-11.485	1	0.0272	0.904	0.00105	0.125	0.351	100.734	164500	4
+4vpeKl0vMGdAXpZiQB2Dtd	White Rabbit	Surrealistic Pillow	Jefferson Airplane	0.551	0.293	2	-12.503	1	0.0272	0.486	0.000273	0.0864	0.322	106.798	150640	4
+70C4NyhjD5OZUMzvWZ3njJ	Piano Man	Piano Man (Legacy Edition)	Billy Joel	0.331	0.55	0	-6.483	1	0.0272	0.605	0.00000396	0.192	0.429	177.734	339000	3
+4yzozDNjvW7acuGonXwfvA	The Vampyre of Time and Memory	...Like Clockwork	Queens of the Stone Age	0.551	0.386	9	-8.958	0	0.0274	0.0856	0.00226	0.133	0.379	142.047	214587	4
+51EMSRpNm9Rg5rGViVCczv	Andromeda	Titanic Rising	Weyes Blood	0.467	0.461	1	-7.94	0	0.0274	0.368	0.00115	0.358	0.188	131.325	280187	4
+1LzNfuep1bnAUR9skqdHCK	Fade Into You	So Tonight That I Might See	Mazzy Star	0.42	0.33	9	-13.925	1	0.0275	0.245	0.000679	0.0677	0.175	157.143	295600	3
+1DkQMumDKBy6wj8QyaVGbx	There's No Way Out of Here	David Gilmour	David Gilmour	0.489	0.443	2	-12.499	1	0.0276	0.021	0.00353	0.333	0.467	130.854	322560	4
+3L80FHW2NswspNHsJfQm85	Tsukuyomi	Oneknowing	Lena Raine	0.546	0.373	0	-9.154	0	0.0277	0.862	0.929	0.0982	0.0919	87.983	218182	4
+7j24QT8Ic9jezjH0s4Lg5B	Dark Days	Sunlit Youth	Local Natives	0.599	0.597	9	-8.322	1	0.0277	0.124	0.00123	0.0946	0.639	115.027	181387	4
+7McZS9J6h0SKoZBR6cfcFe	Apocalypse	Cigarettes After Sex	Cigarettes After Sex	0.369	0.465	5	-9.017	1	0.0277	0.0211	0.6	0.109	0.177	94.435	290617	4
+10nyNJ6zNy2YVYLrcwLccB	No Surprises	OK Computer	Radiohead	0.255	0.393	5	-10.654	1	0.0278	0.0577	0.00361	0.113	0.118	76.426	229120	4
+0BCPKOYdS2jbQ8iyB56Zns	Clocks	A Rush of Blood to the Head	Coldplay	0.577	0.749	5	-7.215	0	0.0279	0.599	0.0115	0.183	0.255	130.97	307880	4
+4d9RTWdrFLVAGhdzvqxkwn	Losing My Religion	Out Of Time	R.E.M.	0.7	0.686	9	-10.338	0	0.0279	0.0943	0.00000193	0.0847	0.815	125.412	268933	4
+1kl6jzl9h38pjzALrPYvq3	Corridors of Time	CHRONO TRIGGER Original Soundtrack【DS Edition】	Yasunori Mitsuda	0.486	0.768	6	-5.931	0	0.028	0.00221	0.483	0.246	0.785	111.012	183267	4
+2kkX9IzielZhUBybezdE0m	Parade	Still Life	Kevin Morby	0.499	0.516	9	-10.846	1	0.028	0.185	0.0215	0.11	0.485	149.886	325427	4
+6pnwfWyaWjQiHCKTiZLItr	Shine On You Crazy Diamond (Pts. 1-5)	Wish You Were Here	Pink Floyd	0.264	0.294	7	-11.941	0	0.028	0.772	0.686	0.107	0.0402	137.937	811077	3
+6ybViy2qrO9sIi41EgRJgx	Don't Know Why	Come Away With Me	Norah Jones	0.732	0.198	5	-11.775	1	0.028	0.883	0.000011	0.0659	0.618	88.174	186147	4
+3AJwUDP919kvQ9QcozQPxg	Yellow	Parachutes	Coldplay	0.429	0.661	11	-7.227	1	0.0281	0.00239	0.000121	0.234	0.285	173.372	266773	4
+0i19MAZbyn8uTir7FprXId	Oh! Sweet Nuthin' - 2015 Remaster	Loaded: Re-Loaded 45th Anniversary Edition	The Velvet Underground	0.399	0.467	5	-11.763	1	0.0284	0.303	0.0186	0.124	0.525	75.601	445187	4
+38PTaSqKcn1NKafQRdXSby	PPP	Depression Cherry	Beach House	0.49	0.464	1	-7.478	1	0.0284	0.381	0.894	0.0555	0.142	104.896	368547	3
+5JyJsAZyLTD7W5oWLeB0JK	PPP	Depression Cherry	Beach House	0.49	0.466	1	-7.685	1	0.0284	0.364	0.888	0.0568	0.153	104.882	368547	3
+0jBE7Fn78EAvmIs3dCd6GO	Is This It	Is This It	The Strokes	0.667	0.692	5	-8.361	1	0.0285	0.147	0.0000375	0.349	0.846	96.022	151333	4
+0tkBOcK7oRVXQJY97zzSvr	Telescope	Melophobia	Cage The Elephant	0.589	0.481	0	-4.801	1	0.0285	0.273	0.0000133	0.0986	0.176	93.568	228293	4
+6ADSaE87h8Y3lccZlBJdXH	With Or Without You - Remastered	The Joshua Tree (Super Deluxe)	U2	0.54	0.429	2	-11.822	1	0.0285	0.000202	0.355	0.141	0.113	110.171	295516	4
+0iTpQYzJnYgh7kIxyq8A2O	Two Weeks	Veckatimest	Grizzly Bear	0.537	0.712	5	-5.597	1	0.0286	0.289	0.00568	0.08	0.704	159.871	243160	4
+1Y3LN4zO1Edc2EluIoSPJN	Until I Found You (with Em Beihold) - Em Beihold Version	Until I Found You (Em Beihold Version)	Stephen Sanchez	0.551	0.55	10	-5.339	1	0.0286	0.777	0	0.202	0.342	101.19	176440	3
+3cw3Z7mS55gd3NUjh4k0bL	Sweet Jane - Full Length Version; 2015 Remaster	Loaded: Re-Loaded 45th Anniversary Edition	The Velvet Underground	0.619	0.637	2	-7.369	1	0.0286	0.015	0	0.374	0.936	105.205	246307	4
+6GyDY0yE47rfk8pcuKhioh	Make It Wit Chu	Era Vulgaris	Queens of the Stone Age	0.708	0.828	9	-5.286	1	0.0286	0.413	0.000104	0.12	0.505	91.977	290493	4
+75WFyYrXPMAWyN6jOBB7IC	Good Song	Think Tank (Special Edition)	Blur	0.651	0.493	5	-9.113	1	0.0286	0.213	0.538	0.188	0.719	168.544	187680	4
+1mea3bSkSGXuIRvnydlB5b	Viva La Vida	Viva La Vida or Death and All His Friends	Coldplay	0.486	0.617	5	-7.115	0	0.0287	0.0954	0.00000323	0.109	0.417	138.015	242373	4
+4g3Ax56IslQkI6XVfYKVc5	The Less I Know The Better	Currents	Tame Impala	0.64	0.755	1	-4.077	0	0.0287	0.0138	0.0208	0.12	0.744	116.883	216319	4
+20hQFBI3Fvene9YT75JUNM	Ramona	Scott Pilgrim vs. the World (Original Motion Picture Soundtrack)	Beck	0.413	0.565	9	-7.2	0	0.0288	0.0359	0.768	0.139	0.341	123.044	261507	4
+3GNgik2UtPjHOhnoDi2U0H	Where Is the Love	Hey! I Know You	The Monzas	0.305	0.404	11	-7.262	0	0.0288	0.829	0.00267	0.329	0.233	102.06	124582	4
+1FsfU72Q4tq1AfBpdZ43G4	Bluebird Of Happiness	Spoon And Rafter	Mojave 3	0.364	0.177	1	-13.918	1	0.0289	0.732	0.571	0.0998	0.0343	72.526	555827	4
+3DD48JX944qwU4xSksKrsf	We Are Fine	Tramp	Sharon Van Etten	0.453	0.322	0	-8.677	1	0.029	0.633	0.0062	0.0989	0.0942	108.122	229213	4
+3YRCqOhFifThpSRFJ1VWFM	November Rain	Use Your Illusion I	Guns N' Roses	0.294	0.641	11	-9.316	1	0.0291	0.0163	0.22	0.112	0.226	79.759	536067	4
+1wtGtVfMHjeNfNLeNFVMK6	Waiting for the Moon to Rise	"Fold Your Hands Child, You Walk Like a Peasant"	Belle and Sebastian	0.455	0.556	9	-11.169	0	0.0292	0.807	0.0103	0.156	0.596	142.711	192960	4
+6FhqMiFC6PPYXihpGTFNMC	Spectre	Spectre	Radiohead	0.154	0.447	4	-8.797	0	0.0292	0.557	0.912	0.108	0.12	149.423	199334	3
+7w87IxuO7BDcJ3YUqCyMTT	Pumped Up Kicks	Torches	Foster The People	0.733	0.71	5	-5.849	0	0.0292	0.145	0.115	0.0956	0.965	127.975	239600	4
+1ujxjsoNvh4XgS2fUNwkZ2	Space Song	Depression Cherry	Beach House	0.509	0.79	0	-7.105	0	0.0293	0.218	0.125	0.144	0.625	147.073	320467	4
+2ZRvcRcKdwQBjTAqj2XNJN	Losing All Sense	Painted Ruins	Grizzly Bear	0.534	0.738	8	-6.237	0	0.0293	0.107	0.139	0.0871	0.616	96.053	305867	4
+78lWY65Wh8fg89xFHjGAic	Take Me Somewhere	Rock Action	Mogwai	0.489	0.56	2	-8.801	1	0.0293	0.395	0.339	0.15	0.0727	124.264	417227	3
+0lheBnCG6GonaIsznGzGUI	Lament of Orpheus	Hades: Original Soundtrack	Darren Korb	0.495	0.333	7	-9.3	0	0.0294	0.929	0.0178	0.125	0.103	125.62	193291	3
+7falOwHJ9MjskdcNehIh79	Nothing In My Way	Under The Iron Sea	Keane	0.399	0.854	10	-4.97	0	0.0294	0.00107	0.00000396	0.0893	0.872	172.478	240387	4
+1DfRCC2qpjjzc6l5DmTjkG	Queen	Too Bright	Perfume Genius	0.418	0.547	1	-4.932	1	0.0295	0.211	0.0443	0.188	0.13	131.983	230720	4
+0PldjOTKRt45S9MrLnlwVM	Kahlil Gibran	Miracle Mile	STRFKR	0.676	0.641	9	-7.923	1	0.0296	0.267	0.262	0.119	0.352	84.97	241413	4
+045sp2JToyTaaKyXkGejPy	Fake Plastic Trees	The Bends	Radiohead	0.454	0.229	2	-12.592	1	0.0297	0.167	0.102	0.202	0.134	73.552	290707	4
+29i8axWOLDmgbiutJb9prB	Lost Cause	Sea Change	Beck	0.611	0.577	0	-8.728	1	0.0297	0.26	0.000807	0.467	0.214	119.877	227360	4
+2URDbWGmPz3vhagl25p8OC	Tranquility Base Hotel & Casino	Tranquility Base Hotel & Casino	Arctic Monkeys	0.584	0.835	9	-4.326	0	0.0297	0.0411	0.0147	0.199	0.781	142.2	212093	4
+3Jc6X15OZCCyhGSHBF4hwB	House Of Cards	In Rainbows	Radiohead	0.71	0.496	5	-9.638	1	0.0297	0.278	0.581	0.101	0.637	111.662	328293	4
+3s2MZsEfiMe7ZjiRtun6wv	Take Me Somewhere Nice	Rock Action	Mogwai	0.459	0.562	2	-8.771	1	0.0297	0.391	0.287	0.0935	0.0733	124.202	417227	3
+48X4D1FYOShPz2VF3YdfCF	House Of Cards	In Rainbows	Radiohead	0.708	0.499	5	-9.644	1	0.0297	0.269	0.57	0.101	0.628	111.652	328293	4
+4qBHDoJFUUSvTa4aZJfEuw	Postcards from Italy	Gulag Orkestar	Beirut	0.621	0.569	5	-7.318	1	0.0297	0.928	0.0356	0.115	0.402	110.022	257480	4
+5TTGoX70AFrTvuEtqHK37S	No. 1 Party Anthem	AM	Arctic Monkeys	0.505	0.698	0	-5.563	1	0.0297	0.33	0.0887	0.0966	0.599	115.013	243132	4
+73CKjW3vsUXRpy3NnX4H7F	Fake Plastic Trees	The Bends	Radiohead	0.463	0.229	2	-12.592	1	0.0297	0.167	0.0997	0.202	0.135	73.543	290707	4
+7Jh1bpe76CNTCgdgAdBw4Z	Heroes - 2017 Remaster	Heroes (2017 Remaster)	David Bowie	0.489	0.758	7	-6.491	1	0.0297	0.000678	0.49	0.092	0.435	112.113	371413	4
+5HM8ZOCXFjWVIGZtxUZDtR	Sea Of Dreams	Chronovision (Deluxe)	Oberhofer	0.446	0.663	0	-9.097	1	0.0298	0.555	0.701	0.166	0.503	97.342	283000	4
+5sICkBXVmaCQk5aISGR3x1	Enter Sandman	Metallica	Metallica	0.577	0.828	6	-8.691	0	0.0298	0.00213	0.0114	0.0581	0.604	123.257	331267	4
+1ZMiCix7XSAbfAJlEZWMCp	Falling	Fine Line	Harry Styles	0.567	0.267	4	-6.502	1	0.0299	0.839	0.00000146	0.089	0.0592	110.011	240133	4
+5FY6QpvB4NDI14MCx5T9xi	This Empty Northern Hemisphere	This Empty Northern Hemisphere	Gregory Alan Isakov	0.368	0.329	5	-12.618	1	0.0299	0.695	0.00999	0.105	0.0859	93.679	300400	4
+1hKdDCpiI9mqz1jVHRKG0E	Enter Sandman	Metallica	Metallica	0.579	0.824	6	-8.71	0	0.03	0.00206	0.00903	0.059	0.635	123.331	331573	4
+2pAD0PKMUMtxlMvz33tYzB	Is This It	Is This It	The Strokes	0.664	0.679	5	-8.293	1	0.03	0.149	0.0000484	0.347	0.804	96.002	150651	4
+1qoFVb7xcCv7Lpfg2Tfoiy	Secret of the Forest	CHRONO TRIGGER Original Soundtrack【DS Edition】	Yasunori Mitsuda	0.417	0.501	10	-5.243	0	0.0301	0.711	0.946	0.218	0.272	75.018	296200	4
+4sLGaMl33I6mcsk7u4xHAU	Codex	The King Of Limbs	Radiohead	0.327	0.128	2	-17.536	0	0.0301	0.841	0.76	0.13	0.0648	58.993	287067	4
+504gLMHaH2jakKbQymyJCp	Never	Back On the Streets of the Bronx	Larry Chance & The Earls	0.483	0.458	5	-10.077	1	0.0301	0.799	0.000179	0.168	0.523	75.939	207720	4
+5IafdoRLyaGPeeA6f8ysIe	I'm So Tired	Instrument Soundtrack	Fugazi	0.303	0.129	6	-15.069	1	0.0301	0.89	0.00776	0.123	0.155	84.167	118933	4
+6FLwmdmW77N1Pxb1aWsZmO	Only Time	A Day Without Rain	Enya	0.418	0.249	3	-13.744	1	0.0301	0.841	0.661	0.112	0.213	82.803	218547	4
+1XuccRABkfUVB4FjSVhjL1	Alone Again Or - 2015 Remaster	Forever Changes (2015 Remaster)	Love	0.318	0.303	11	-15.572	0	0.0302	0.664	0.000223	0.113	0.226	174.254	197275	4
+6ORqU0bHbVCRjXm9AjyHyZ	Good Riddance (Time of Your Life)	Nimrod	Green Day	0.475	0.432	7	-7.844	1	0.0302	0.183	0	0.161	0.648	94.605	153467	4
+35E2eKIEXXnP5q9L51iOAk	The Killing Moon	Ocean Rain (Expanded; 2007 Remaster)	Echo & the Bunnymen	0.568	0.829	7	-7.066	1	0.0303	0.218	0.00418	0.0976	0.79	124.201	348293	4
+6AirEKLAv80bFaIDKpMi7I	The Knowing	Trilogy	The Weeknd	0.451	0.573	6	-8.277	0	0.0303	0.571	0.00744	0.172	0.087	85.921	340333	4
+0pNeVovbiZHkulpGeOx1Gj	Something - Remastered 2009	Abbey Road (Remastered)	The Beatles	0.396	0.338	0	-10.872	1	0.0304	0.198	0.00000262	0.138	0.377	133.522	182293	4
+2QwObYJWyJTiozvs0RI7CF	Street Spirit (Fade Out)	The Bends	Radiohead	0.488	0.454	4	-11.544	0	0.0304	0.317	0.694	0.179	0.131	138.076	253853	4
+5gz38AxRkD6Ywxd4fr2pLj	Street Spirit (Fade Out)	The Bends	Radiohead	0.488	0.453	4	-11.562	0	0.0304	0.314	0.691	0.179	0.129	138.077	253853	4
+2Vp0ue7NNLHFF6RKSdOEuN	Candy Says	The Velvet Underground (45th Anniversary)	The Velvet Underground	0.525	0.0632	2	-23.321	1	0.0305	0.94	0.763	0.105	0.24	79.273	243667	4
+65E6q1ktDLAZCoocU2eDnb	"So Long, Lonesome"	All of a Sudden I Miss Everyone	Explosions In The Sky	0.434	0.368	6	-12.353	1	0.0305	0.769	0.539	0.0689	0.0407	104.979	220373	3
+7uIyzCZKGk9K2EXnb3BtrR	Mantis Lords	Hollow Knight (Original Soundtrack)	Christopher Larkin	0.481	0.692	7	-9.964	1	0.0305	0.232	0.0173	0.149	0.567	144.991	105852	3
+2cP37n7TZEe0oBxCbZu0KA	New Slang	"Oh, Inverted World"	The Shins	0.669	0.388	0	-11.547	1	0.0306	0.605	0.144	0.0905	0.645	130.016	231173	4
+6bQJTHN7wbjNQfsMRospJi	Quarrel	Aromanticism	Moses Sumney	0.369	0.271	4	-12.645	0	0.0306	0.677	0.00814	0.0844	0.155	143.58	405616	4
+37Tmv4NnfQeb0ZgUC4fOJj	Sultans Of Swing	Dire Straits	Dire Straits	0.733	0.794	5	-10.023	1	0.0307	0.0614	0.0367	0.33	0.931	148.174	348624	4
+5xKvxwXINUs2dsyvDJ8Gjs	"Teleport 2 Me, Jamie"	WZRD	WZRD	0.496	0.706	8	-6.653	1	0.0308	0.00999	0.00298	0.39	0.311	99.856	238400	4
+6eTGxxQxiTFE6LfZHC33Wm	Hoppípolla	Takk...	Sigur Rós	0.312	0.543	11	-9.875	1	0.0308	0.0356	0.225	0.128	0.178	140.109	270013	4
+2Z1UHt641EB60i102C8fNy	Please Don't Die	God's Favorite Customer	Father John Misty	0.478	0.548	5	-7.959	1	0.0309	0.124	0	0.0982	0.38	123.47	204253	4
+3lw0CSMQ88LcN0ZMP6DlWi	That Moon Song	This Empty Northern Hemisphere	Gregory Alan Isakov	0.255	0.394	2	-12.609	1	0.0309	0.653	0.1	0.148	0.267	145.315	214227	3
+59Bc4RPzSL3nYPANh25a6J	My Jinji	JINJI KIKKO	Sunset Rollercoaster	0.389	0.598	7	-8.436	1	0.0309	0.531	0.407	0.143	0.517	143.931	400560	4
+7mEGddVRDdESAibWOnbXoA	A Letter To Elise	Wish	The Cure	0.53	0.592	9	-13.444	1	0.0309	0.189	0.00174	0.198	0.795	150.224	312240	4
+2flxduIqEbsicdmPyj1WVW	Imagination	Imagination	Foster The People	0.744	0.642	2	-4.6	0	0.031	0.115	0.0000395	0.279	0.63	94.988	256267	4
+2sy0icOIskeP2lCqgZiTyE	Talk Show Host	Street Spirit (Fade Out)	Radiohead	0.535	0.479	5	-14.112	0	0.0311	0.277	0.0285	0.139	0.504	88.841	281000	4
+4gq2bc2770XvbJdEtfUbmw	Go Slowly	In Rainbows (Disk 2)	Radiohead	0.43	0.393	11	-8.556	0	0.0311	0.883	0.782	0.131	0.0439	108.154	228236	4
+56SaJxdWjVRcpOJrVW1871	Zeal Palace	CHRONO TRIGGER Original Soundtrack【DS Edition】	Yasunori Mitsuda	0.37	0.713	7	-5.249	0	0.0312	0.211	0.953	0.166	0.0992	161.951	238093	4
+2fuYa3Lx06QQJAm0MjztKr	Let Down	OK Computer	Radiohead	0.351	0.676	9	-9.017	1	0.0313	0.000121	0.113	0.18	0.143	102.46	299560	4
+2IZdzLuDb0ZNxbVNv97Vpw	Bermuda Highway	Acoustic Citsuoca	My Morning Jacket	0.342	0.212	1	-14.621	1	0.0313	0.758	0.000613	0.704	0.141	138.597	218600	4
+5SOA0gaKMMp9cgwn3nuwk7	Solitude - Felsmann + Tiley Reinterpretation	Solitude (Felsmann + Tiley Reinterpretation)	M83	0.367	0.202	0	-11.342	1	0.0313	0.668	0.145	0.109	0.0362	121.865	222354	4
+7CoMBpPTwQi2wPT0U0Nr9b	State Lines	Birthplace	Novo Amor	0.509	0.31	9	-10.623	1	0.0313	0.959	0.229	0.0963	0.151	137.474	208653	3
+0PERS23jNsjcjBywXLvpyc	When I'm Small	Eyelid Movies	Phantogram	0.646	0.758	10	-4.34	1	0.0314	0.191	0.097	0.103	0.424	91.998	249067	4
+3ZffCQKLFLUvYM59XKLbVm	Wake Me up When September Ends	American Idiot	Green Day	0.546	0.814	7	-5.146	1	0.0314	0.023	0	0.0972	0.146	104.98	285653	4
+5DTOOkooKFUvWj1XQTFa09	The End of the World	The Essential Skeeter Davis	Skeeter Davis	0.232	0.216	10	-10.674	1	0.0314	0.936	0.00000493	0.246	0.432	94.268	157573	3
+7d0XkI4iJ32nxeFAHFXbLQ	"If You Need To, Keep Time on Me"	Crack-Up	Fleet Foxes	0.521	0.22	9	-10.202	1	0.0314	0.647	0.00814	0.179	0.135	104.03	210507	4
+1GnFQL9XnxrXFloKm1yjuW	The Numbers	A Moon Shaped Pool	Radiohead	0.282	0.372	5	-9.77	1	0.0315	0.651	0.409	0.0755	0.0551	105.271	345887	3
+0xtIp0lgccN85GfGOekS5L	Yes I'm Changing	Currents	Tame Impala	0.373	0.609	0	-7	1	0.0316	0.108	0.000427	0.0755	0.354	179.955	270680	4
+1G1R0XgChe18Zr1o6tlmN6	Watercolor Eyes	Watercolor Eyes (From “Euphoria” An HBO Original Series)	Lana Del Rey	0.444	0.26	7	-10.045	1	0.0316	0.964	0.0815	0.125	0.121	120.443	211613	4
+65E62rOSbm7SZbAMYjNTJq	Pride (In The Name Of Love) - Remastered 2009	The Unforgettable Fire (Deluxe Edition Remastered)	U2	0.458	0.843	4	-7.201	1	0.0316	0.00135	0.000296	0.778	0.713	105.701	228427	4
+2iXMJRVShSGCYMYlnEHzGP	Aahaa	Vaazhl (Original Motion Picture Soundtrack)	Pradeep Kumar	0.207	0.214	4	-13.085	1	0.0317	0.73	0.22	0.0971	0.0544	83.757	301250	4
+389QX9Q1eUOEZ19vtzzI9O	While My Guitar Gently Weeps - Remastered 2009	The Beatles (Remastered)	The Beatles	0.453	0.654	4	-8.855	0	0.0317	0.0205	0.00395	0.172	0.702	115	285000	4
+3AyuigFWbuirWHvidbMz8O	Should Have Known Better	Carrie & Lowell	Sufjan Stevens	0.493	0.171	7	-20.696	1	0.0317	0.98	0.263	0.126	0.296	90.928	307698	4
+4Y1igB1GDncJvt7ezbV3cW	Suspirium	Suspiria (Music for the Luca Guadagnino Film)	Thom Yorke	0.457	0.223	1	-15.432	0	0.0317	0.988	0.918	0.135	0.438	150.998	201768	3
+5txzKcySsIIIrsciNliAoL	Some Feeling	Foreplay	Mild Orange	0.742	0.51	9	-8.192	0	0.0317	0.451	0.00000753	0.121	0.579	128.913	197225	4
+003FTlCpBTM4eSqYSWPv4H	"Swing, Swing"	The All-American Rejects	The All-American Rejects	0.553	0.717	7	-5.857	1	0.0318	0.0000648	0.128	0.0385	0.318	127.947	233267	4
+0pjqB2r8MZmoADC0Ca80B5	Anthems For A Seventeen Year-Old Girl	Scott Pilgrim vs. the World (Original Motion Picture Soundtrack)	Broken Social Scene	0.472	0.49	4	-7.974	1	0.0318	0.203	0.0283	0.158	0.408	79.698	275693	4
+1UuaWKypSkIHxFZD03zw4m	The Tourist	OK Computer	Radiohead	0.241	0.295	4	-8.57	1	0.0318	0.223	0.0319	0.11	0.0398	114.347	326533	5
+3pRaLNL3b8x5uBOcsgvdqM	Hallelujah	Grace	Jeff Buckley	0.324	0.136	0	-10.33	1	0.0318	0.931	0.00117	0.176	0.0831	97.256	413827	3
+5I6y1KWmUoV5YCaIEcs1qs	Should Have Known Better	Carrie & Lowell	Sufjan Stevens	0.571	0.172	7	-20.7	1	0.0318	0.979	0.275	0.124	0.297	90.972	307698	4
+2QeutlLcJf2V1cMUUsDFT1	Lotus Flower	The King Of Limbs	Radiohead	0.721	0.676	2	-8.78	0	0.032	0.0899	0.334	0.0826	0.62	127.99	300219	4
+46elU7IBKWf55D5sjHGqO7	Dil Dhadakne Do	Zindagi Na Milegi Dobara	Joi Barua	0.778	0.599	2	-4.758	1	0.032	0.0705	0	0.59	0.949	116.951	230319	4
+6ta5yavnnEfCE4faU0jebM	Mr Blue	Hurricane Glass	Catherine Feeny	0.456	0.386	10	-10.293	1	0.032	0.835	0.108	0.389	0.612	165.733	154600	4
+0Re28d5ry1y6p7QV2KQB1z	Photosynesthesia	Greenhouse	Louie Zong	0.435	0.185	6	-17.46	1	0.0321	0.947	0.849	0.17	0.199	58.958	114988	4
+1amSa5xo79zINsgrpNlNge	Lotus Flower	The King Of Limbs	Radiohead	0.721	0.676	2	-8.78	0	0.0321	0.0895	0.336	0.0826	0.621	127.997	300219	4
+3Z25k4ZF6QENy2d9YatsM5	I Want You (She's So Heavy) - Remastered 2009	Abbey Road (Remastered)	The Beatles	0.37	0.515	2	-9.487	0	0.0321	0.0233	0.205	0.0966	0.42	115.732	467320	4
+7ofV2J7Ndzo2s5NBEgfpxl	The Show Must Go On - Remastered 2011	Greatest Hits II (Remastered)	Queen	0.435	0.7	11	-7.3	0	0.0321	0.388	0	0.118	0.266	84.002	263627	4
+01Q3OyB05mLgH01fpdAMPP	Wait	"Hurry up, We're Dreaming"	M83	0.426	0.228	2	-10.552	1	0.0322	0.198	0.13	0.0832	0.0822	147.994	343253	4
+2YP1SmJb1tHQkgyp2dMfHH	Flesh And Blood	Shine On	Sarah McLachlan	0.534	0.537	5	-7.535	1	0.0322	0.381	0	0.116	0.135	107.952	258080	4
+7iN1s7xHE4ifF5povM6A48	Let It Be - Remastered 2009	Let It Be (Remastered)	The Beatles	0.443	0.403	0	-8.339	1	0.0322	0.631	0	0.111	0.41	143.462	243027	4
+2LC523tbEPFpc1pnikbt5b	Brighter Than Sunshine	Still Life	Aqualung	0.418	0.489	6	-8.373	0	0.0323	0.287	0.0288	0.42	0.398	72.891	242439	4
+3rWZv4pUVvPkQLYm3ItGDv	Gallipoli	Gallipoli	Beirut	0.504	0.607	10	-8.1	1	0.0323	0.456	0.573	0.0765	0.337	133.393	246643	3
+5dqNCR3ANsOIMeQLpk54wU	Don't Bother Calling	Aromanticism	Moses Sumney	0.465	0.213	0	-10.183	1	0.0323	0.856	0.00557	0.0863	0.0803	123.518	239702	4
+5FVd6KXrgO9B3JPmC8OPst	Do I Wanna Know?	AM	Arctic Monkeys	0.548	0.532	5	-7.596	1	0.0323	0.186	0.000263	0.217	0.405	85.03	272394	4
+77SPrxY5gn6VPrKPGrfLnM	"There, There"	Hail To the Thief	Radiohead	0.614	0.677	9	-8.317	0	0.0323	0.0193	0.518	0.108	0.717	126.477	323600	4
+14xj58ZexBaEaHARb11Cqs	Lucky	OK Computer	Radiohead	0.213	0.4	11	-9.813	0	0.0324	0.053	0.612	0.111	0.195	133.369	258813	4
+2AkmdLbVKS1steeZdy8H1l	I Want To Break Free - Single Remix	The Works (Deluxe Edition 2011 Remaster)	Queen	0.795	0.435	4	-8.927	1	0.0324	0.0841	0.00026	0.0763	0.596	108.95	258013	4
+3uqx1JmyAiuVk6YW0HSeAn	Unmade	Suspiria (Music for the Luca Guadagnino Film)	Thom Yorke	0.335	0.304	9	-11.962	0	0.0324	0.974	0.941	0.0644	0.119	96.115	267455	3
+7qMwiFUhjCvxwGsyHp3W74	Ishq	Ishq - Single	Ali Sethi	0.317	0.432	3	-6.658	1	0.0324	0.196	0.00013	0.115	0.312	175.544	242023	4
+1aL9518P5G72N92b48tuKw	Summer High	Summer High	AP Dhillon	0.86	0.541	1	-6.51	0	0.0325	0.165	0.163	0.0663	0.952	114.984	177391	4
+1dBje6EOpDBLdoKGo94DEa	Rivers	Rivers	The Tallest Man On Earth	0.562	0.25	5	-11.977	1	0.0325	0.959	0.000836	0.107	0.595	100.804	236854	4
+5M4yti0QxgqJieUYaEXcpw	Eventually	Currents	Tame Impala	0.424	0.615	9	-6.217	0	0.0325	0.0158	0.000389	0.0844	0.155	77.935	318591	4
+6UFvGJalSngqprmUJd59Eo	You And Whose Army?	Amnesiac	Radiohead	0.295	0.15	1	-10.243	0	0.0325	0.794	0.208	0.103	0.131	137.393	191000	4
+7Hg6a7tZsVTkXnBUepjZU6	You And Whose Army?	Amnesiac	Radiohead	0.295	0.15	1	-10.244	0	0.0325	0.794	0.205	0.103	0.131	137.504	191000	4
+0EG3HTklKQCIpM2IlGpOQ1	Aye-Dil-E-Nadan	Razia Sultan	Lata Mangeshkar	0.605	0.344	6	-11.941	1	0.0326	0.794	0.00000298	0.083	0.407	101.024	339067	1
+0HXg2FtGDBsD7fGi99vxdt	Owner of a Lonely Heart	Sorry for the Delay	Grizzly Bear	0.233	0.459	2	-11.409	0	0.0326	0.747	0.00845	0.339	0.412	135.481	190573	4
+2VvhiOzhP3s3k8T5lPN7wN	La Javanaise	Half The Perfect World	Madeleine Peyroux	0.544	0.126	10	-16.654	1	0.0326	0.95	0.0593	0.158	0.157	107.956	249400	3
+3UhxZNywlQm37nE7ypOs1t	Filmic - Original Mix	Group Therapy	Above & Beyond	0.294	0.255	5	-15.083	1	0.0326	0.957	0.914	0.199	0.0372	86.331	229360	5
+3Z1zP0gLfdmzGVWwaIOu8U	My Beautiful Boy	C’est La Vie	Phosphorescent	0.504	0.563	0	-9.132	1	0.0326	0.661	0.468	0.228	0.601	76.988	346057	4
+4WFWh42DCkPCjcjqITk54S	Different This Time	Lake Tear of the Clouds	Cornelia Murr	0.39	0.384	5	-12.317	0	0.0326	0.8	0.0000447	0.118	0.201	106.084	233048	3
+72Z17vmmeQKAg8bptWvpVG	Space Oddity - 2015 Remaster	David Bowie (aka Space Oddity) [2015 Remaster]	David Bowie	0.31	0.403	0	-13.664	1	0.0326	0.0726	0.0000927	0.139	0.466	134.48	318027	4
+780zqvhD7SvK0sMGheplPf	Kaala Rey	Gangs Of Wasseypur - 2	Sneha Khanwalkar	0.725	0.511	5	-9.143	1	0.0326	0.232	0.00279	0.233	0.472	110.009	308964	4
+3EEzQDCP8jRl2pEt9eDKMO	I Follow You	Melody's Echo Chamber	Melody's Echo Chamber	0.41	0.78	9	-4.941	0	0.0327	0.0174	0.408	0.233	0.727	100.452	215587	4
+6zEvZ5Bip13TwMrheoZSju	Come a Little Closer	Melophobia	Cage The Elephant	0.44	0.778	1	-1.786	0	0.0327	0.0265	0.00000104	0.151	0.304	148.038	229347	4
+2XiVI1ZMabQc0VIChp9KoV	Golden Ridge - Golden Feather Mix	Celeste B-Sides (Original Game Soundtrack)	In Love With a Ghost	0.57	0.459	9	-8.414	1	0.0329	0.619	0.0000218	0.0947	0.187	104.027	293821	4
+3A9vIxzGBjEfqmDK7H9exS	Pyramid Song	Amnesiac	Radiohead	0.127	0.335	11	-8.298	0	0.0329	0.786	0.427	0.111	0.0686	77.078	288733	4
+5rfT032kGmLvbxZzfHlu5D	In the Aeroplane Over the Sea	In the Aeroplane Over the Sea	Neutral Milk Hotel	0.271	0.714	7	-5.124	1	0.0329	0.392	0	0.115	0.239	94.158	202347	3
+5v8aEcHcaJIGYpfVVPtJjI	Wires	I'm Sorry...	The Neighbourhood	0.568	0.569	7	-6.013	0	0.0329	0.0004	0.102	0.342	0.266	72.991	193080	4
+3D8BHRb8r4tE494LrtXffE	Laughter Lines	All This Bad Blood	Bastille	0.473	0.643	1	-6.419	0	0.033	0.123	0.000674	0.0781	0.175	142.065	248040	4
+7hdyHn4gvcSGlb6Enm0au2	Impossible	Mirrors the Sky	Lyla Foy	0.717	0.462	0	-9.802	1	0.033	0.567	0.29	0.11	0.357	118.286	235072	4
+46o6IpE6k3SkF1mRtoANvm	Solun	"Scapes & Spaces, Volume 2"	Neuhaus	0.212	0.172	9	-13.68	0	0.0331	0.982	0.921	0.12	0.0534	89.755	368707	4
+4O2aCfXPP9FfPoIPixwVBz	Golden Light	Miracle Mile	STRFKR	0.573	0.67	8	-11.437	0	0.0331	0.52	0.806	0.321	0.159	96.991	283057	4
+5QLHGv0DfpeXLNFo7SFEy1	1979 - Remastered 2012	Mellon Collie And The Infinite Sadness (Deluxe Edition)	The Smashing Pumpkins	0.767	0.787	3	-9.897	1	0.0331	0.0163	0.583	0.0513	0.964	126.879	266200	4
+6CKoWCWAqEVWVjpeoJXyNH	Shape Of My Heart	Ten Summoner's Tales	Sting	0.537	0.373	6	-10.081	0	0.0331	0.691	0.000915	0.083	0.244	83.936	279227	4
+7xNpCuqDKASx2f64nkhzNm	Imaginary Folklore	2nd Collection	clammbon	0.602	0.792	2	-8.463	1	0.0331	0.146	0.887	0.118	0.345	93.743	318027	4
+3cUxncrTWSA9lhlQbuIwUY	Stuck on the puzzle	Submarine - Original Songs From The Film By Alex Turner	Alex Turner	0.58	0.682	4	-8.523	1	0.0332	0.0792	0.0316	0.161	0.774	77.53	211053	4
+3PG7BAJG9WkmNOJOlc4uAo	Femme Fatale	The Velvet Underground & Nico 45th Anniversary	The Velvet Underground	0.55	0.145	0	-15.753	1	0.0332	0.913	0	0.118	0.138	103.918	159000	4
+1lJySpoTdGHcTV4OTaluls	Queen's Gardens	Hollow Knight (Original Soundtrack)	Christopher Larkin	0.369	0.152	11	-20.044	0	0.0333	0.98	0.873	0.0992	0.252	135.124	106250	4
+2gNfxysfBRfl9Lvi9T3v6R	Disciples	Currents	Tame Impala	0.661	0.869	5	-5.477	1	0.0334	0.078	0.924	0.398	0.8	126.971	108547	4
+2hwf6IE0V4MVqw9tbWY9FQ	Call Your Name	Call Your Name	Tora-i	0.603	0.633	5	-4.148	0	0.0334	0.0473	0.000028	0.433	0.0894	86.971	196082	4
+3vMrcGW4o35zY6vXjWb1p7	Falling Down	Showbiz	Muse	0.321	0.215	9	-13.042	1	0.0334	0.861	0.00164	0.129	0.0451	117.797	273933	3
+6vzkD6LA8mtbFscSWqP9MO	One - Remastered 2018	Achtung Baby (30th Anniversary Edition)	U2	0.404	0.497	0	-9.456	1	0.0335	0.255	0.00132	0.144	0.313	180.93	276181	4
+0NdTUS4UiNYCNn5FgVqKQY	Snap Out Of It	AM	Arctic Monkeys	0.728	0.638	5	-6.455	0	0.0336	0.249	0	0.116	0.872	130.014	193030	4
+1ZyQGXH9dZ4AecevHhKUxi	World Gone Mad	World Gone Mad (From Bright: The Album)	Bastille	0.505	0.68	6	-3.423	0	0.0336	0.283	0	0.175	0.362	139.843	195701	4
+3s9eWdn8IymCPvVLcKpjww	The Moon Song	The Moon Song	beabadoobee	0.405	0.0854	0	-15.488	1	0.0336	0.968	0.0121	0.139	0.148	93.768	141040	4
+3uxhyRdWVXp7GQvERQl6fA	Videotape	In Rainbows	Radiohead	0.581	0.384	9	-11.195	1	0.0336	0.697	0.813	0.0889	0.0466	77.412	279634	4
+5CU1bbfY1wUPm7fU255Dhf	King of Carrot Flowers Pt. 1	In the Aeroplane Over the Sea	Neutral Milk Hotel	0.407	0.519	5	-6.47	1	0.0336	0.11	0.889	0.409	0.342	94.001	120427	4
+6xPkf69rcfWM0Jfll6V3uo	Move On	Entertainment	Garden City Movement	0.501	0.551	9	-7.567	1	0.0336	0.314	0.433	0.641	0.0681	117.277	251733	4
+2O99aywAVBhaPrsiJ6zbSS	'Cause I'm A Man	Currents	Tame Impala	0.547	0.695	9	-4.969	1	0.0337	0.108	0.00301	0.14	0.641	144.684	241987	4
+2xbrMtkxp399aSiCJ8EAON	Knives Out	Amnesiac	Radiohead	0.433	0.675	2	-6.702	0	0.0337	0.0911	0.293	0.159	0.184	137.268	254867	4
+1QkqxOr2vDMXWvkSdpkxPu	Starjump	Celeste (Original Soundtrack)	Lena Raine	0.682	0.379	0	-9.3	1	0.0338	0.0675	0.715	0.126	0.159	120.002	132658	4
+5k7VKj1Xwy5DjO4B0PdAOb	Nude	In Rainbows	Radiohead	0.537	0.342	4	-9.785	1	0.0338	0.833	0.6	0.0856	0.156	128.331	255387	3
+5ZBabAFfRVFjxMvbmGadqL	Starjump	Celeste (Original Soundtrack)	Lena Raine	0.682	0.38	0	-9.3	1	0.0338	0.0675	0.721	0.126	0.16	120.003	132658	4
+7LVHVU3tWfcxj5aiPFEW4Q	Fix You	X&Y	Coldplay	0.209	0.417	3	-8.74	1	0.0338	0.164	0.00196	0.113	0.124	138.178	295533	4
+1HyImWEaQ6ApypgRa7oBMX	Sea of Dreams	Chronovision	Oberhofer	0.444	0.653	0	-9.694	1	0.0339	0.582	0.55	0.155	0.49	97.25	283004	4
+2IZZqH4K02UIYg5EohpNHF	Zombie	No Need To Argue	The Cranberries	0.307	0.635	7	-8.957	1	0.0339	0.0154	0.00483	0.366	0.304	166.973	306427	4
+3l7wabij39c12TyQfl28ks	Checking In	Celeste (Original Soundtrack)	Lena Raine	0.514	0.437	9	-10.016	0	0.0339	0.162	0.803	0.136	0.112	105.973	424718	4
+5CQ30WqJwcep0pYcV4AMNc	Stairway to Heaven - Remaster	Led Zeppelin IV (Deluxe Edition)	Led Zeppelin	0.338	0.34	9	-12.049	0	0.0339	0.58	0.0032	0.116	0.197	82.433	482830	4
+0fOjUafaAhJV16oRBgCtz7	Ladies and gentlemen we are floating in space	Ladies and gentlemen we are floating in space	Spiritualized	0.376	0.41	2	-11.452	1	0.034	0.753	0.000543	0.234	0.171	100.031	234053	3
+0qDsmWe20HzPpFHEVMi7ym	Alan	No Shape	Perfume Genius	0.199	0.291	11	-10.619	1	0.034	0.739	0.449	0.0994	0.202	128.761	166525	4
+1Dr1fXbc2IxaK1Mu8P8Khz	When I Come Around	Dookie	Green Day	0.531	0.909	11	-4.236	1	0.034	0.0175	0	0.231	0.814	97.546	178000	4
+7rU6Iebxzlvqy5t857bKFq	Plastic Love	Expressions	Mariya Takeuchi	0.648	0.875	2	-5.141	0	0.034	0.0747	0.0000964	0.196	0.857	102.517	294493	4
+3gO9p30uqT9Wt4f5XvNsZs	…con lentitud poderosa	Risk of Rain 2	Chris Christodoulou	0.193	0.233	8	-10.161	1	0.0341	0.299	0.869	0.0862	0.123	100.203	289553	4
+35YyxFpE0ZTOoqFx5bADW8	Nude	In Rainbows	Radiohead	0.516	0.342	4	-9.785	1	0.0342	0.832	0.579	0.0857	0.167	128.378	255387	3
+5chFfvzdWd33uwpy4UzmAj	In The Fade/Feel Good Hit Of The Summer (Reprise)	Rated R - Deluxe Edition	Queens of the Stone Age	0.432	0.642	1	-7.069	0	0.0342	0.177	0.0277	0.0936	0.422	165.534	265347	4
+4U45aEWtQhrm8A5mxPaFZ7	Vienna	The Stranger (Legacy Edition)	Billy Joel	0.532	0.495	10	-6.662	1	0.0343	0.659	0	0.0754	0.308	124.936	214240	4
+3tJjZMHLqhD8DaGgdBICnc	Saturn	Atlas: I	Sleeping At Last	0.263	0.237	3	-13.738	1	0.0344	0.638	0.305	0.109	0.0461	73.024	289792	4
+0X4CiBGl8clZNBkYNxo6e0	Silver Dagger	MusicNOW: 10 Years	Robin Pecknold	0.218	0.441	2	-7.713	1	0.0345	0.981	0.242	0.696	0.112	112.27	223693	4
+2fwLXYI6N8l4tOY4ntSiUZ	Crossroads	Hollow Knight (Original Soundtrack)	Christopher Larkin	0.326	0.311	0	-18.507	1	0.0345	0.642	0.934	0.112	0.0741	150.057	147905	4
+2rtGaCAeYtmcIvuZsvgTf6	How to Disappear Completely	Kid A	Radiohead	0.167	0.302	6	-11.644	0	0.0345	0.316	0.797	0.11	0.19	102.026	356333	4
+32bZRcF2imSuRHdpodPEbQ	Ghost On The Mend	Water Your Garden	Magic City Hippies	0.625	0.537	6	-6.251	1	0.0345	0.588	0.00118	0.107	0.775	83.022	159227	4
+2VR1z4g6haFyMoghNj46KB	Jhoom	Jhoom	Ali Zafar	0.734	0.529	0	-10.198	1	0.0346	0.392	0	0.11	0.58	128.022	389213	4
+0SzvmWfOhoxZVGrmvb56YL	Baby I'm Yours	Leave Before The Lights Come On	Arctic Monkeys	0.462	0.595	2	-9.363	1	0.0347	0.215	0	0.184	0.64	113.719	152613	4
+2P7i3LoqblIGiNk1Jmbc30	Kahin Door Jab Din Dhal Jaye	Anand	Mukesh	0.521	0.424	5	-7.392	1	0.0347	0.852	0.00000108	0.301	0.484	91.351	337387	4
+6dGnYIeXmHdcikdzNNDMm2	Here Comes The Sun - Remastered 2009	Abbey Road (Remastered)	The Beatles	0.557	0.54	9	-10.484	1	0.0347	0.0339	0.00248	0.179	0.394	129.171	185733	4
+6mib3N4E8PZHAGQ3xy7bho	Moonage Daydream - 2012 Remaster	The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)	David Bowie	0.56	0.605	11	-11.209	0	0.0348	0.0408	0.000162	0.0585	0.756	144.478	279693	4
+7mjSHL2Eb0kAwiKbvNNyD9	Wild World	Tea For The Tillerman (Remastered 2020)	Yusuf / Cat Stevens	0.48	0.542	0	-8.51	1	0.0348	0.345	0.000609	0.113	0.567	152.853	200560	4
+0z1o5L7HJx562xZSATcIpY	Exit Music (For A Film)	OK Computer	Radiohead	0.293	0.276	4	-11.357	0	0.0349	0.224	0.122	0.167	0.195	121.603	267187	4
+11VwZwNF29HrqwalYUMitb	Pale Blue Eyes	The Velvet Underground (45th Anniversary)	The Velvet Underground	0.637	0.107	5	-18.759	1	0.0349	0.911	0.00146	0.103	0.296	82.879	339533	4
+54KFQB6N4pn926IUUYZGzK	To Build A Home	Ma Fleur	The Cinematic Orchestra	0.264	0.122	9	-15.399	1	0.0349	0.885	0.349	0.094	0.0735	148.658	371320	4
+6h4V0fuWElsTFaPg2tQIoL	Song for Zula	Muchacho	Phosphorescent	0.492	0.626	4	-8.26	1	0.0349	0.729	0.533	0.0509	0.524	86.016	370200	4
+0JuJ0M9ZaKDwXms3rUh1Hk	Love in the Time of Socialism	A Carnival of Fears	Yellow House	0.244	0.259	10	-9.591	1	0.035	0.915	0	0.158	0.19	76.973	251185	4
+27bBjan9bD8rUESGYqK9a7	Not My Baby	Antisocialites	Alvvays	0.344	0.645	0	-4.363	1	0.035	0.0291	0.315	0.0988	0.125	150.852	256413	4
+3HfB5hBU0dmBt8T0iCmH42	Creep	Pablo Honey (Collector's Edition)	Radiohead	0.532	0.344	7	-13.057	1	0.035	0.00563	0.000473	0.115	0.126	91.834	235667	4
+7EZC6E7UjZe63f1jRmkWxt	Zombie	No Need To Argue (The Complete Sessions 1994-1995)	The Cranberries	0.309	0.649	7	-8.994	1	0.035	0.0158	0.00591	0.367	0.312	166.915	306440	4
+3FtYbEfBqAlGO46NUDQSAt	Electric Feel	Oracular Spectacular	MGMT	0.763	0.803	1	-3.713	1	0.0351	0.0709	0.285	0.348	0.561	103.04	229640	3
+6EFJgBGmRhv6HDeM8AW3Re	The Peerless Pool	Through Passages of Time.	The Hardy Tree	0.312	0.268	2	-11.875	0	0.0351	0.88	0.918	0.0699	0.175	136.005	212975	4
+53PkA8aXiwH4ppa0V0iO7o	oh baby	american dream	LCD Soundsystem	0.58	0.622	5	-12.005	1	0.0352	0.0192	0.653	0.648	0.781	169.442	349693	4
+55q3Ro66yXWi9rsEddeEN4	Pyramid Song	Amnesiac	Radiohead	0.12	0.336	11	-8.298	0	0.0352	0.786	0.404	0.111	0.0679	72.64	288733	4
+2MuWTIM3b0YEAskbeeFE1i	Master Of Puppets	Master Of Puppets (Remastered)	Metallica	0.543	0.836	4	-9.11	0	0.0353	0.000647	0.431	0.153	0.56	105.173	515387	4
+7l5nkTZpoD93OkynN0gcon	Into Dust	So Tonight That I Might See	Mazzy Star	0.415	0.132	7	-18.839	1	0.0353	0.94	0.137	0.113	0.122	169.006	336760	4
+64SIlhd3BaHCCMSfajXG7l	Grace	Grace	Jeff Buckley	0.546	0.867	11	-4.235	0	0.0354	0.0256	0.000229	0.221	0.189	127.988	322040	4
+6fyI2QGPzUiqRHnuYD7oOp	Greenpath	Hollow Knight (Original Soundtrack)	Christopher Larkin	0.453	0.295	4	-16.465	0	0.0354	0.889	0.861	0.256	0.273	169.851	217013	3
+07XaOyTS5hyaWiUK1Bc3bR	True Love Waits	A Moon Shaped Pool	Radiohead	0.401	0.132	0	-15.569	1	0.0355	0.938	0.102	0.1	0.0381	136.142	283464	4
+1Dp7ASSZVVOPJ85VdLpjOX	Seventeen Going Under	Seventeen Going Under	Sam Fender	0.477	0.873	1	-4.946	1	0.0355	0.00471	0.00589	0.0813	0.611	161.948	302360	4
+1wRCg1JyRmbJEg9ESOMlVp	Spooky Couch	Como Te Llama?	Albert Hammond Jr	0.532	0.494	7	-10.654	1	0.0355	0.979	0.674	0.123	0.888	156.278	438907	4
+5Qv2Nby1xTr9pQyjkrc94J	All I Need	In Rainbows	Radiohead	0.67	0.478	4	-8.689	0	0.0355	0.531	0.428	0.138	0.0997	88.014	228747	4
+0V5cvmTKsYmF5FmGGEAfmS	Je te laisserai des mots	Je te laisserai des mots	Patrick Watson	0.303	0.187	2	-16.757	1	0.0356	0.989	0.489	0.101	0.213	132.731	160853	4
+3DQVgcqaP3iSMbaKsd57l5	I Bet You Look Good On The Dancefloor	"Whatever People Say I Am, That's What I'm Not"	Arctic Monkeys	0.535	0.948	6	-4.19	0	0.0356	0.00225	0	0.376	0.778	103.183	173680	4
+6bnFjTW3EnMG4BwreDnSHK	Mr. Blue	Come Softly To Me: The Very Best Of The Fleetwoods	The Fleetwoods	0.374	0.0889	4	-17.475	1	0.0356	0.931	0.00000688	0.111	0.211	96.677	145133	4
+6EOKwO6WaLal58MSsi6U4W	Eleanor Rigby	Yellow Submarine Songtrack	The Beatles	0.521	0.301	4	-7.118	0	0.0356	0.836	0	0.398	0.621	137.382	125227	4
+1IFcut13RX9SduibZiDc1B	Le château magique	Visions	Guilhem Desq	0.581	0.466	5	-9.116	0	0.0357	0.0394	0.567	0.0794	0.275	122.036	250040	4
+25Syi9wnfn6ZGAmiOBypPq	Motion Sickness	Stranger in the Alps (Deluxe Edition)	Phoebe Bridgers	0.651	0.546	1	-9.021	1	0.0357	0.774	0.0437	0.0842	0.623	107.021	229760	4
+2ALZ1Ut5yrh9hZy88MVfdy	Cowboy	Faking My Own Death	Allison Ponthier	0.315	0.385	0	-8.35	0	0.0358	0.71	0.0000685	0.163	0.152	98.011	240019	4
+51ygW389BW4Dut3B69pSwc	All I Need	In Rainbows	Radiohead	0.668	0.477	4	-8.709	0	0.0358	0.517	0.446	0.139	0.0966	88.005	228747	4
+6Thn8AOHIwPCkf2O4ZgfC2	Song for Zula	Muchacho	Phosphorescent	0.486	0.623	4	-8.264	1	0.0358	0.734	0.536	0.0509	0.525	86.007	370200	4
+77yuzxCS3csrgTPSW0pvyk	O	Ghost Stories	Coldplay	0.371	0.216	10	-14.727	1	0.0358	0.911	0.826	0.0934	0.0645	136.998	323480	4
+2RhzvGyDqT8Nekg2fab5o7	Anxiety	Celeste (Original Soundtrack)	Lena Raine	0.206	0.214	5	-11.118	1	0.0359	0.442	0.839	0.102	0.0729	70.618	113154	4
+2txbj2UMsiBaoMCoCI6Iqc	Farewell	Celeste: Farewell (Original Soundtrack)	Lena Raine	0.604	0.719	9	-9.143	0	0.0359	0.00517	0.59	0.094	0.425	131.012	500153	4
+19K3lUMJmOdeuOBTrbLm19	Weekend Wars	Oracular Spectacular	MGMT	0.549	0.859	5	-3.993	1	0.0361	0.0964	0.0000236	0.322	0.69	77.013	250773	4
+0VNzEY1G4GLqcNx5qaaTl6	Vincent	American Pie	Don McLean	0.419	0.085	7	-19.387	1	0.0362	0.908	0.00000533	0.34	0.458	91.509	243493	3
+5rF6YUIlgiat22OT1lWspJ	Seventeen Going Under	Seventeen Going Under (Deluxe)	Sam Fender	0.48	0.87	1	-4.792	1	0.0362	0.00438	0.00603	0.0826	0.584	161.953	297933	4
+1D3YGmST01Ba0WRiT7THPG	I Sat by the Ocean	...Like Clockwork	Queens of the Stone Age	0.516	0.78	8	-4.004	0	0.0364	0.00136	0.000715	0.11	0.899	116.794	235587	4
+59yrts1mp90szqVDEf7o2S	Saigal Blues	Delhi Belly (Original Motion Picture Soundtrack)	Ram Sampath	0.59	0.683	10	-7.868	0	0.0364	0.571	0.0012	0.351	0.552	82.003	234620	4
+5v4sZRuvWDcisoOk1PFv6T	Bloodstream	x (Deluxe Edition)	Ed Sheeran	0.66	0.316	3	-11.567	0	0.0364	0.529	0.000294	0.104	0.543	91.207	300253	4
+21Ay8Y9Pr91nSauPGtK6MW	Barely Legal	Is This It	The Strokes	0.424	0.884	0	-6.286	1	0.0365	0.00326	0.0499	0.0903	0.852	157.813	234693	4
+2fyIS6GXMgUcSv4oejx63f	Mardy Bum	"Whatever People Say I Am, That's What I'm Not"	Arctic Monkeys	0.634	0.599	2	-5.447	1	0.0365	0.0288	0	0.197	0.312	112.215	175440	4
+2KUmkYMFnsiVPCOGx1gefj	Mr. Tambourine Man	Subterranean Homesick Blues: A Tribute to Bob Dylan's 'Bringing It All Back Home'	The Helio Sequence	0.393	0.318	2	-11.555	1	0.0365	0.858	0.00000695	0.107	0.45	84.703	343053	4
+476V2d6iA2tWXgQboKmTtA	Father And Son	Tea For The Tillerman (Remastered 2020)	Yusuf / Cat Stevens	0.495	0.326	7	-12.29	1	0.0365	0.541	0.0000885	0.0996	0.371	136.243	221120	4
+5VWC7v2dC2K0SIIjT9WTLN	Welcome to the Machine	Wish You Were Here	Pink Floyd	0.381	0.358	0	-12.423	1	0.0365	0.524	0.169	0.0747	0.036	133.271	451681	4
+1RibyFUnnp1waJUgRZM6Bm	Scattered and Lost	Celeste (Original Soundtrack)	Lena Raine	0.517	0.949	9	-6.354	0	0.0366	0.526	0.828	0.109	0.445	97.987	353232	4
+5SdmtFbNOD7Qej6jFCHkOM	Faust Arp	In Rainbows	Radiohead	0.338	0.289	0	-13.479	1	0.0366	0.834	0.344	0.0966	0.226	121.857	129680	3
+1XpYodsD36XN7ygcdF7mJJ	The A Team	+	Ed Sheeran	0.642	0.289	9	-9.918	1	0.0367	0.669	0	0.18	0.407	84.996	258373	4
+20mLcWdIpEZWVpzboSZJil	Chan Kithan	Chan Kithan - Single	Ali Sethi	0.304	0.34	3	-10.029	1	0.0367	0.961	0.231	0.218	0.298	175.991	233012	4
+5N22FteLZT3tgYABLAobu1	Funnel of Love	Heart Trouble	Wanda Jackson	0.623	0.658	1	-5.481	0	0.0367	0.0862	0.0000568	0.173	0.81	126.867	152933	4
+5UWwZ5lm5PKu6eKsHAGxOk	Everlong	The Colour And The Shape	Foo Fighters	0.413	0.881	11	-5.541	0	0.0367	0.0000599	0.000308	0.0805	0.364	158.066	250547	4
+086myS9r57YsLbJpU0TgK9	Why'd You Only Call Me When You're High?	AM	Arctic Monkeys	0.691	0.631	2	-6.478	1	0.0368	0.0483	0.0000113	0.104	0.8	92.004	161124	4
+3G69vJMWsX6ZohTykad2AU	One	Achtung Baby (Deluxe Edition)	U2	0.392	0.534	0	-8.793	1	0.0369	0.245	0.00104	0.155	0.325	181.305	276187	4
+5hM5arv9KDbCHS0k9uqwjr	Borderline	The Slow Rush	Tame Impala	0.621	0.873	5	-3.067	0	0.0369	0.0406	0.0000091	0.0824	0.873	97.96	237800	4
+4vsoWZcvtvSsE0OiVvDDvX	Harness Your Hopes - B-side	Brighten the Corners: Nicene Creedence Ed.	Pavement	0.604	0.573	2	-7.804	1	0.037	0.289	0.0406	0.133	0.581	107.862	206947	4
+2AT8iROs4FQueDv2c8q2KE	R U Mine?	AM	Arctic Monkeys	0.288	0.758	6	-5.692	0	0.0371	0.00616	0	0.303	0.619	97.094	201726	4
+1v1oIWf2Xgh54kIWuKsDf6	Runaway	All My Demons Greeting Me As A Friend (Deluxe)	AURORA	0.422	0.302	11	-9.214	1	0.0372	0.629	0.0000783	0.104	0.123	114.089	248827	4
+5PdXzjv5TmXJdsHIxm3iOW	Don't Call My Name	LIFE & LOVE	Skinshape	0.676	0.568	4	-8.07	0	0.0372	0.158	0.735	0.108	0.576	90.022	249853	4
+0Z57YWES04xGh3AImDz6Qr	Real Love Baby	Real Love Baby	Father John Misty	0.417	0.686	7	-6.484	1	0.0373	0.0955	0.0287	0.0989	0.625	204.113	189293	4
+0ZA43HPPeTVV7hPoFlLeR2	Different State of Mind	Different State of Mind	Kid Bloom	0.658	0.388	11	-9.932	1	0.0373	0.711	0.168	0.174	0.715	141.078	225532	4
+5zoOkYCaI0t7anBXlXIbkG	Heart of the Mountain	Celeste (Original Soundtrack)	Lena Raine	0.54	0.493	0	-10.416	0	0.0373	0.426	0.834	0.0742	0.161	100.036	382284	4
+11x1BI4T2OBW0LMEUUyXNI	Quiet and Falling	Celeste (Original Soundtrack)	Lena Raine	0.237	0.0943	0	-23.572	0	0.0374	0.966	0.924	0.107	0.0567	115.313	447393	3
+1ZqHjApl3pfzwjweTfMi0g	Violet Hill	Viva La Vida or Death and All His Friends	Coldplay	0.33	0.58	1	-7.875	0	0.0374	0.0614	0.00129	0.115	0.11	76.093	222653	4
+1yqMgZNrevsWMLWfO2PRp5	Charlie Brown	Mylo Xyloto	Coldplay	0.43	0.74	10	-7.072	1	0.0375	0.0212	0.00165	0.33	0.0948	137.978	285160	4
+4keAoywVf4jxRvXU7ON0hV	Salad Days	Salad Days	Mac DeMarco	0.43	0.771	5	-7.176	1	0.0375	0.0876	0.0239	0.121	0.772	201.001	145893	4
+2wemf8Txlm0gqF8lqQetNh	Blank Pages	A Chorus of Storytellers	The Album Leaf	0.63	0.359	9	-11.022	0	0.0376	0.0195	0.915	0.0931	0.168	119.981	268453	4
+3hG05dRDVtY1COn47oKDT4	False Knight	Hollow Knight (Original Soundtrack)	Christopher Larkin	0.524	0.893	2	-8.136	0	0.0378	0.147	0.898	0.195	0.588	150.098	184658	3
+3hRV0jL3vUpRrcy398teAU	The Night We Met	Strange Trails	Lord Huron	0.544	0.369	2	-9.514	1	0.038	0.969	0.279	0.639	0.102	87.01	208212	3
+4HbeGjbt7u3pvwDk1vN7P0	Mystery of Love	Call Me By Your Name (Original Motion Picture Soundtrack)	Sufjan Stevens	0.365	0.273	4	-16.526	0	0.038	0.94	0.431	0.109	0.238	132.285	248965	5
+5GbVzc6Ex5LYlLJqzRQhuy	Mystery of Love	Mystery of Love	Sufjan Stevens	0.365	0.273	4	-16.526	0	0.038	0.94	0.431	0.109	0.238	132.285	248960	5
+7KxlQrTePk82UyI1Daz2Cr	Master & A Hound	This Empty Northern Hemisphere	Gregory Alan Isakov	0.324	0.166	9	-17.732	1	0.038	0.911	0.0974	0.101	0.169	134.915	182333	4
+1v0ufp7FLTFcykUGOmFZKa	Daffodils (feat. Kevin Parker)	Uptown Special	Mark Ronson	0.724	0.538	0	-8.041	1	0.0381	0.0408	0.0139	0.0343	0.282	108.945	298133	4
+26D1PRJjD9Jj1JGRk88KVc	Lithium	Nevermind (Deluxe Edition)	Nirvana	0.678	0.656	7	-6.41	1	0.0381	0.00174	0	0.0631	0.485	123.207	257053	4
+3nAq2hCr1oWsIU54tS98pL	Waves	The Life Of Pablo	Kanye West	0.557	0.586	10	-4.57	1	0.0382	0.0528	0.00000733	0.339	0.0681	96.091	181573	4
+4qyfir5Yr7nfo05g6cyFMT	Promise	Every Kingdom	Ben Howard	0.367	0.189	2	-15.736	1	0.0384	0.889	0.428	0.364	0.177	156.643	384080	4
+5fDGmTJQnPhijhyG6tRR15	I'll Be Around	Fade	Yo La Tengo	0.327	0.328	7	-12.023	1	0.0384	0.728	0.89	0.114	0.0726	103.687	287107	4
+1ZKSWtwZDRT1SWZSE0wrqH	Robber	Ignorance	The Weather Station	0.714	0.614	7	-9.823	0	0.0385	0.72	0.281	0.093	0.352	118.993	320525	4
+2Y0iGXY6m6immVb2ktbseM	Little Dark Age	Little Dark Age	MGMT	0.705	0.712	6	-6.156	1	0.0385	0.0102	0.000855	0.1	0.62	97.512	299960	4
+5z4vmar50qPl80GjIrPBXm	It's Raining Somewhere Else	UNDERTALE Soundtrack	Toby Fox	0.803	0.391	5	-13.044	0	0.0385	0.821	0.825	0.136	0.632	96.013	170312	4
+1CBQ8XGwcu7BcsT8iByvwE	Black Sheep	Scott Pilgrim vs. the World (Original Motion Picture Soundtrack)	Metric	0.508	0.647	11	-6.278	0	0.0387	0.000252	0.00346	0.0983	0.166	123.922	295533	4
+4pt5fDVTg5GhEvEtlz9dKk	I WANNA BE YOUR SLAVE	Teatro d'ira - Vol. I	Måneskin	0.75	0.608	1	-4.008	1	0.0387	0.00165	0	0.178	0.958	132.507	173347	4
+4wajJ1o7jWIg62YqpkHC7S	Weird Fishes/ Arpeggi	In Rainbows	Radiohead	0.531	0.61	11	-8.025	0	0.0387	0.772	0.756	0.0908	0.199	152.958	318187	4
+0MKGH8UMfCnq5w7nG06oM5	Come As You Are	Nevermind (Deluxe Edition)	Nirvana	0.5	0.824	4	-5.846	0	0.0388	0.00016	0.00161	0.0916	0.539	120.125	218920	4
+4FuOHRPC3ZIQ7VQd7KMbds	Out of Tartarus	Hades: Original Soundtrack	Darren Korb	0.53	0.772	0	-7.292	1	0.0388	0.00439	0.875	0.0429	0.744	163.964	353972	4
+4P5KoWXOxwuobLmHXLMobV	Come As You Are	Nevermind (Remastered)	Nirvana	0.5	0.824	4	-5.846	0	0.0388	0.00016	0.00161	0.0916	0.539	120.125	218920	4
+6u0dQik0aif7FQlrhycG1L	The Morning	Trilogy	The Weeknd	0.652	0.549	6	-7.555	0	0.039	0.317	0	0.104	0.186	120.073	312427	4
+1FXl2X2XbOT74taZiqMCTJ	Space Day	"Terraria, Vol. 4 (Original Soundtrack)"	Scott Lloyd Shelly	0.575	0.334	7	-16.494	1	0.0391	0.924	0.913	0.123	0.761	75.015	83200	4
+1mQ9pMKMYlgLRKT71QBcfL	He Would Have Laughed	Halcyon Digest	Deerhunter	0.354	0.668	4	-7.9	1	0.0392	0.461	0.72	0.159	0.372	118.54	449373	4
+2EqlS6tkEnglzr7tkKAAYD	Come Together - Remastered 2009	Abbey Road (Remastered)	The Beatles	0.533	0.376	9	-11.913	0	0.0393	0.0302	0.248	0.0926	0.187	165.007	259947	4
+4riBORG5X5kvQThwODPDDh	Japan - Satin Jackets Remix	Weather Remixes	Tycho	0.708	0.771	2	-9.022	0	0.0394	0.00721	0.164	0.277	0.371	92.986	237419	4
+4fpEuKIzTLmMJnYwFU0oqr	Death with Dignity	Carrie & Lowell	Sufjan Stevens	0.51	0.16	4	-21.03	1	0.0395	0.986	0.017	0.113	0.383	170.063	239508	4
+67Hna13dNDkZvBpTXRIaOJ	Teardrop	Mezzanine	Massive Attack	0.615	0.419	11	-8.8	0	0.0395	0.0173	0.497	0.135	0.216	76.997	330773	4
+6qZjm61s6u8Ead9sWxCDro	Elephant	Lonerism	Tame Impala	0.598	0.553	9	-6.742	0	0.0397	0.562	0.157	0.257	0.533	123.075	211227	4
+7jbLjvNlKbfCRUoFWKo5TR	13 Angels Standing Guard 'Round The Side Of Your Bed	He Has Left Us Alone But Shafts Of Light Sometimes Grace The Corner Of Our Rooms	Silver Mt. Zion	0.213	0.303	9	-13.698	1	0.0398	0.967	0.864	0.0611	0.0388	116.968	442293	5
+5cf1ZfI16kHp3S1ySpQ36G	"Ready, Able"	Veckatimest	Grizzly Bear	0.432	0.458	0	-9.723	1	0.0399	0.23	0.719	0.111	0.232	152.572	257213	3
+1lo9k4PrxFd5Np4cAxXoKo	Hurt	The Downward Spiral	Nine Inch Nails	0.49	0.158	9	-18.148	1	0.04	0.773	0.0227	0.121	0.0826	79.833	375933	4
+1uP8UVMXcTJn28TbhfR2Wo	Paul	Masterpiece	Big Thief	0.483	0.263	11	-11.541	1	0.0401	0.199	0.000306	0.109	0.166	123.453	183895	4
+3VCXx37jNGNOMns6z2OnvJ	Swing Lynn	I'm Sure	Harmless	0.464	0.945	2	-1.815	1	0.0401	0.0506	0.756	0.112	0.453	165.177	321438	4
+4AA4xt0NvJCUaJYh9SoZ1y	Paul	Masterpiece	Big Thief	0.446	0.263	11	-11.541	1	0.0403	0.199	0.000305	0.109	0.168	123.696	183895	4
+0GRBFjza23Im7Xb16c9AaK	No Quarter - Remaster	Houses of the Holy (Remaster)	Led Zeppelin	0.33	0.342	11	-14.09	1	0.0404	0.734	0.671	0.129	0.0795	142.95	422518	4
+5gOFmjUz109sB4QuNhxuol	Ladyfingers Lofi	Ladyfingers Lofi	Max Riser	0.233	0.322	1	-14.826	1	0.041	0.953	0.924	0.303	0.495	76.376	187716	4
+4J8rl3iuh7Dw9F0JI3OJKt	Vignette: Panacea	Hyper Light Drifter	Disasterpeace	0.419	0.0596	8	-20.394	0	0.0415	0.977	0.883	0.113	0.168	83.16	103799	3
+0fpoU64eUOF6Jjwom1zkNY	Dreams Wash Away	Nite Creatures	Joe Wong	0.41	0.605	2	-7.086	1	0.0416	0.0115	0.111	0.353	0.198	138.097	227573	4
+1EzrEOXmMH3G43AXT1y7pA	I'm Yours	We Sing. We Dance. We Steal Things.	Jason Mraz	0.703	0.444	11	-9.331	1	0.0417	0.559	0	0.0973	0.712	150.96	242947	4
+0MY3aXBhkIjQOB6xcsi0LL	Maeri	Phir Dhoom	Palash Sen	0.487	0.591	8	-5.172	1	0.0419	0.526	0	0.187	0.413	83.348	332733	4
+6xdLJrVj4vIXwhuG8TMopk	Crazy Little Thing Called Love - Remastered 2011	The Game (2011 Remaster)	Queen	0.599	0.761	0	-6.887	1	0.0421	0.713	0.00000474	0.349	0.712	77.015	163373	4
+6dsq7Nt5mIFzvm5kIYNORy	15 Step	In Rainbows	Radiohead	0.6	0.853	1	-7.584	1	0.0423	0.0489	0.346	0.0934	0.847	94.457	237293	4
+3DofkfU0559aayAElVjEIr	Laughing on the Outside	Cleopatra Girls	Bernadette Carroll	0.384	0.419	5	-9.712	1	0.0426	0.822	0.00152	0.267	0.427	98.637	140453	3
+4JvclO8lNugobD1afavcYS	Nantes	The Flying Club Cup	Beirut	0.437	0.533	1	-9.552	1	0.0426	0.782	0.0142	0.134	0.638	131.155	230200	4
+666PdikRnUzdvjT9p5wWND	Tomorrow's Dust	The Slow Rush	Tame Impala	0.616	0.804	0	-5.568	1	0.0427	0.0124	0.0998	0.553	0.627	99.002	326840	4
+5x42CjqVuWJ4HALw5N0FNl	Hyouhaku	Chapter V	R A Y	0.34	0.233	7	-8.092	1	0.0428	0.571	0.698	0.085	0.213	171.649	110118	4
+08Isz2ETWSBhvIl8UpKYsp	No Love	No Love	Shubh	0.768	0.487	4	-8.936	0	0.0431	0.24	0	0.175	0.722	137.034	170388	4
+3DNRdudZ2SstnDCVKFdXxG	"Sonata No. 14 ""Moonlight"" in C-Sharp Minor"", Op. 27 No. 2: I. Adagio sostenuto"	"Beethoven: Piano Sonatas, Vol.3"	Ludwig van Beethoven	0.184	0.00527	1	-37.264	0	0.0432	0.995	0.887	0.173	0.151	170.612	315427	3
+5ZdzNVOmCSp5HFLk0EgvJS	Dirty Little Secret	Move Along	The All-American Rejects	0.469	0.955	10	-4.253	1	0.0432	0.000343	0.00000135	0.548	0.462	143.853	193653	4
+2fGRJzoiYJYAzlQAyBONMb	Morning Sex	Morning Sex	Ralph Castelli	0.81	0.353	6	-9.536	1	0.0437	0.0473	0.000104	0.082	0.731	124.991	175313	4
+40dkVbHDhKjzRnlS2yzcdO	The Seer's Tower	Illinois	Sufjan Stevens	0.177	0.0975	2	-15.635	0	0.0438	0.933	0.000595	0.0829	0.0396	179.931	233987	1
+6lPEVX2GfpV9AuV4FDMrwY	Counting the Atmospheres	So Let Us Melt	Jessica Curry	0.0978	0.22	2	-18.126	1	0.0438	0.931	0.833	0.113	0.0298	59.429	430929	4
+6Mnu0OfNYx4rEiXb0bx0mo	The Seer's Tower	Illinois	Sufjan Stevens	0.177	0.0975	2	-15.635	0	0.0438	0.933	0.000595	0.0829	0.0396	179.931	233987	1
+3sqRODOZ1Z6hR4F2tnFAlg	Sakhiyaan	Sakhiyaan	Maninder Buttar	0.706	0.674	9	-5.932	1	0.044	0.3	0	0.202	0.359	83.001	179326	4
+5yEPxDjbbzUzyauGtnmVEC	Bitter Sweet Symphony	Urban Hymns	The Verve	0.389	0.889	9	-6.546	1	0.0442	0.0415	0	0.463	0.524	171.121	358427	4
+2X485T9Z5Ly0xyaghN73ed	Let It Happen	Currents	Tame Impala	0.602	0.881	1	-5.875	0	0.0443	0.00462	0.0266	0.111	0.577	125.012	467587	4
+6RtzmszGXs32TRhv5zTKNM	Same Ol’ Mistakes	ANTI (Deluxe)	Rihanna	0.44	0.803	8	-5.415	1	0.0443	0.199	0.00282	0.0591	0.501	151.777	397093	4
+4UCiDcv0yO9tNLZbkZeBBA	Sink into the Floor	Feng Suave	Feng Suave	0.566	0.394	10	-11.438	0	0.0445	0.712	0.0000259	0.156	0.6	78.948	281054	4
+6ryDGsqVkfCy1smUI4Fqu2	I'm So Lonesome I Could Cry	Stuff Like That There	Yo La Tengo	0.607	0.183	7	-14.372	1	0.0445	0.867	0.000513	0.183	0.373	81.975	171680	4
+1ugKYT4OfPyp4KFovrk4UL	Resurrections	Celeste (Original Soundtrack)	Lena Raine	0.373	0.712	9	-7.32	0	0.0447	0.108	0.597	0.119	0.0384	144.013	578649	4
+27LUNptBKpPi4Tn7RpTWtF	I'm So Lonesome I Could Cry	Stuff Like That There	Yo La Tengo	0.606	0.183	7	-14.372	1	0.0448	0.863	0.000485	0.183	0.365	81.976	171680	4
+3flQv4DNGg31Ic4vBv45Tj	Resurrections	Celeste (Original Soundtrack)	Lena Raine	0.372	0.712	9	-7.32	0	0.0449	0.108	0.598	0.119	0.0384	143.983	578649	4
+4iG2gAwKXsOcijVaVXzRPW	Time to Pretend	Oracular Spectacular	MGMT	0.438	0.94	2	-3.249	1	0.0452	0.0000874	0.0777	0.3	0.421	100.99	261000	3
+1mL6q0gbifm2dBTvMBx4px	All Tomorrow's Parties	The Velvet Underground & Nico 45th Anniversary	The Velvet Underground	0.329	0.499	2	-13.7	1	0.0453	0.0455	0.000465	0.0963	0.132	93.508	359680	4
+5AiNZnMDCWwujIENPj9PV9	Everything In Its Right Place	Kid A	Radiohead	0.293	0.462	5	-11.412	0	0.0453	0.699	0.0444	0.0954	0.0623	124.004	251427	5
+5rAff9XfcWx7rguN3t0fkW	"New York, I Love You but You're Bringing Me Down"	Sound of Silver	LCD Soundsystem	0.39	0.37	7	-8.288	0	0.0457	0.474	0.00013	0.115	0.0909	176.526	335480	3
+2MZSXhq4XDJWu6coGoXX1V	Avril 14th	Drukqs	Aphex Twin	0.558	0.0259	8	-30.016	1	0.0458	0.996	0.871	0.0969	0.37	157.811	125520	4
+3YB9cvd668HXBEq8rbBW8P	Human Sadness	Tyranny	The Voidz	0.231	0.752	0	-4.744	1	0.046	0.231	0.781	0.113	0.115	122.901	656901	4
+1UYj8qTWjneZJDVjUMwMub	The Moment	Currents	Tame Impala	0.547	0.827	7	-6.036	1	0.0468	0.000296	0.101	0.0858	0.451	119.089	255413	4
+0WsYgBmIECcY16YYiAenCi	Borderline - Blood Orange Remix	The Slow Rush B-Sides & Remixes	Tame Impala	0.492	0.428	10	-8.693	0	0.0474	0.354	0.0666	0.114	0.291	174.292	437933	4
+1BLfQ6dPXmuDrFmbdfW7Jl	A Little Piece of Heaven	Avenged Sevenfold	Avenged Sevenfold	0.486	0.881	2	-5.623	0	0.0474	0.0244	0	0.429	0.667	144.997	480707	4
+3bRcSxW2FnSSwrzoYT1knV	At Seventeen	Between The Lines	Janis Ian	0.599	0.164	0	-23.035	1	0.0475	0.888	0.000612	0.121	0.317	125.388	280493	4
+3FG44adkUaqTJr8N8ObzxV	Vishnu <3	Bismillah	Peter Cat Recording Co.	0.415	0.219	11	-13.636	0	0.0475	0.36	0.288	0.203	0.0516	114.203	265453	4
+5ikMA32HfXKQJrxDdpLkYJ	#88	Blue Film	Lo-Fang	0.515	0.328	7	-9.486	1	0.0475	0.496	0.0432	0.0798	0.335	134.016	408373	4
+5ruzrDWcT0vuJIOMW7gMnW	The Adults Are Talking	The New Abnormal	The Strokes	0.593	0.749	5	-5.67	1	0.0475	0.0113	0.106	0.314	0.649	164.959	309053	4
+1HNkqx9Ahdgi1Ixy2xkKkL	Photograph	x (Deluxe Edition)	Ed Sheeran	0.614	0.379	4	-10.48	1	0.0476	0.607	0.000464	0.0986	0.201	107.989	258987	4
+0YJ9FWWHn9EfnN0lHwbzvV	Jigsaw Falling Into Place	In Rainbows	Radiohead	0.462	0.832	11	-6.085	0	0.0479	0.108	0.00416	0.0741	0.807	165.653	248893	4
+57iDDD9N9tTWe75x6qhStw	Bitter Sweet Symphony	Urban Hymns (Remastered 2016)	The Verve	0.356	0.917	9	-6.006	1	0.0479	0.0335	0	0.406	0.518	171.176	357267	4
+15ea10YpJIl3mJq75yzqsD	Jigsaw Falling Into Place	In Rainbows	Radiohead	0.461	0.833	11	-6.082	0	0.0481	0.105	0.00419	0.0741	0.808	165.635	248893	4
+3jjujdWJ72nww5eGnfs2E7	Adore You	Fine Line	Harry Styles	0.676	0.771	8	-3.675	1	0.0483	0.0237	0.000007	0.102	0.569	99.048	207133	4
+07eGxuz8bL6QMsRqEe1Adu	Svefn-g-englar	Ágætis byrjun	Sigur Rós	0.2	0.466	9	-12.298	1	0.0486	0.557	0.702	0.108	0.0572	136.913	606850	5
+5jyyPsIGM2yqkZN9R3TmvN	The Ways (with Swae Lee)	Black Panther The Album Music From And Inspired By	Khalid	0.727	0.72	11	-5.856	0	0.0488	0.0626	0.00000121	0.176	0.589	140.08	238893	4
+2RaGRh57p4OtzpXtr65Nws	23	23	Blonde Redhead	0.383	0.835	8	-5.07	1	0.049	0.0194	0.189	0.153	0.17	120.268	318800	4
+5nrkdXtXyya3ELvE6Bucje	Friendly Creatures	Imaginary	Kupla	0.745	0.352	6	-7.198	0	0.049	0.0371	0.749	0.127	0.268	169.977	159121	4
+21j1PsCiTaO8ZW88UZrh3A	Shine On You Crazy Diamond (Pts. 6-9)	Wish You Were Here	Pink Floyd	0.288	0.485	7	-13.162	0	0.0491	0.576	0.9	0.322	0.124	135.87	747325	3
+6IAVxNFi1W88UhDeyvOsdo	Fat Bottomed Girls - 2011 Remaster	Jazz (2011 Remaster)	Queen	0.332	0.683	2	-7.679	1	0.0491	0.0322	0.00000651	0.342	0.419	88.522	255600	4
+6NmPA1sBTk3zYOujgUxhf8	You Did This	Sketch	Scattle	0.606	0.439	11	-8.523	0	0.0493	0.00258	0.814	0.12	0.432	77.008	128000	4
+6iLzFJhs4ATwJn7P1utZIJ	Light of the Seven	Game of Thrones (Music from the HBO® Series - Season 6)	Ramin Djawadi	0.273	0.102	0	-16.843	0	0.0494	0.903	0.721	0.268	0.0583	120.378	589095	4
+52ojopYMUzeNcudsoz7O9D	"New Person, Same Old Mistakes"	Currents	Tame Impala	0.47	0.809	8	-6.74	1	0.0495	0.272	0.00671	0.0491	0.49	151.836	363240	4
+6Vjk8MNXpQpi0F4BefdTyq	Kashmir - Remaster	Physical Graffiti (Deluxe Edition)	Led Zeppelin	0.483	0.615	2	-8.538	1	0.0497	0.452	0.000414	0.0512	0.594	80.576	517125	3
+0Tel1fmuCxEFV6wBLXsEdk	Kiss Me	+	Ed Sheeran	0.589	0.227	2	-16.67	1	0.0498	0.64	0.00469	0.0248	0.182	74.993	280853	4
+6tDDoYIxWvMLTdKpjFkc1B	telepatía	Sin Miedo (del Amor y Otros Demonios) ∞	Kali Uchis	0.653	0.524	11	-9.016	0	0.0502	0.112	0	0.203	0.553	83.97	160191	4
+4rHZZAmHpZrA3iH5zx8frV	Mirrors	The 20/20 Experience (Deluxe Version)	Justin Timberlake	0.574	0.512	5	-6.664	0	0.0503	0.234	0	0.0946	0.512	76.899	484147	4
+7c378mlmubSu7NGkLFa4sN	Airbag	OK Computer	Radiohead	0.305	0.872	2	-7.313	1	0.0503	0.00786	0.8	0.261	0.648	167.959	287880	4
+6gYx4SBZz99Lwn6V5iDll9	Arriving Somewhere But Not Here	Deadwing	Porcupine Tree	0.377	0.789	2	-5.032	0	0.0504	0.016	0.705	0.245	0.048	159.965	722200	4
+15UGqlx4YUgIIXF6NaMQXZ	Carry It On	Don't Wait for Me	Racing Glaciers	0.263	0.803	5	-8.389	0	0.0507	0.269	0.535	0.0995	0.431	149.16	332005	4
+5jLMFDMUkGpzIgPF2sxWkB	"I Love You, Honeybear"	"I Love You, Honeybear"	Father John Misty	0.189	0.726	7	-6.191	0	0.0511	0.303	0.00352	0.0807	0.322	210.495	278773	3
+5nxZyKwgnwKYxtcFRlwZyV	17	The Year Of Hibernation	Youth Lagoon	0.348	0.263	0	-8.531	1	0.0516	0.835	0.654	0.129	0.12	74.517	236000	4
+27hhIs2fp6w06N5zx4Eaa5	Dream A Little Dream Of Me	The Papas & The Mamas	The Mamas & The Papas	0.413	0.313	7	-13.138	1	0.0519	0.791	0.0000015	0.0727	0.349	92.515	194427	4
+5Pf5HwjqLAbYDVBQU7H7Oz	I'll Keep Coming	0	Low Roar	0.332	0.596	9	-5.607	0	0.0521	0.0372	0.413	0.298	0.0996	140.104	352347	4
+1QQqHS80CpR8tA2lR8O65y	Pichle Saat Dinon Mein (Album Version)	Rock On	Farhan Akhtar	0.717	0.772	7	-5.852	1	0.0522	0.346	0.00000105	0.134	0.792	106.077	187942	4
+64dLd6rVqDLtkXFYrEUHIU	New Gold (feat. Tame Impala and Bootie Brown)	New Gold (feat. Tame Impala and Bootie Brown)	Gorillaz	0.695	0.923	1	-3.93	0	0.0522	0.0425	0.0469	0.116	0.551	108.014	215150	3
+1yzbqrSF0vuaO7nuKYSd6f	Coming of Age	Supermodel	Foster The People	0.534	0.955	7	-4.447	0	0.0524	0.0219	0.00573	0.322	0.425	130.09	280040	4
+4cIPLtg1avt2Jm3ne9S1zy	Killer Queen - Remastered 2011	Sheer Heart Attack (Deluxe Edition 2011 Remaster)	Queen	0.535	0.651	10	-6.326	1	0.0544	0.391	0	0.133	0.612	117.218	179600	4
+11LmqTE2naFULdEP94AUBa	Heart-Shaped Box	In Utero - 20th Anniversary - Deluxe Edition	Nirvana	0.256	0.641	1	-10.283	1	0.0552	0.199	0.0329	0.0853	0.382	203.006	281160	4
+66w5OYw2ja8lnmaA3Ns0PU	Heart-Shaped Box	In Utero - 20th Anniversary Remaster	Nirvana	0.256	0.641	1	-10.283	1	0.0552	0.199	0.0329	0.0853	0.382	203.006	281160	4
+5frmIBzZKMjU2PlWJJ8Ir3	Tere Bin	Rabbi	Rabbi Shergill	0.712	0.87	3	-7.1	1	0.0553	0.659	0.0000755	0.161	0.873	104.039	322701	4
+78lgmZwycJ3nzsdgmPPGNx	Immigrant Song - Remaster	Led Zeppelin III (Remaster)	Led Zeppelin	0.564	0.932	11	-10.068	1	0.0554	0.013	0.169	0.349	0.619	112.937	146250	4
+08Hncs1L3PYHpfsb8sYdmQ	Disintegration - Remastered	Disintegration (Remastered)	The Cure	0.59	0.943	2	-5.941	1	0.056	0.32	0.0291	0.366	0.128	122.016	499853	4
+1f3yAtsJtY87CTmM8RLnxf	Smells Like Teen Spirit	Nevermind (Deluxe Edition)	Nirvana	0.502	0.912	1	-4.556	1	0.0564	0.0000255	0.000173	0.106	0.72	116.761	301920	4
+5ghIJDpPoe3CfHMGu71E6T	Smells Like Teen Spirit	Nevermind (Remastered)	Nirvana	0.502	0.912	1	-4.556	1	0.0564	0.0000255	0.000173	0.106	0.72	116.761	301920	4
+55agfs0AP02LB7TUx4vxc8	Sea of Vapours	Mustt Mustt (Real World Gold)	Nusrat Fateh Ali Khan	0.171	0.00372	8	-32.128	1	0.057	0.795	0.96	0.0879	0.0663	116.854	238000	4
+6y20BV5L33R8YXM0YuI38N	No One Knows	Songs For The Deaf	Queens of the Stone Age	0.509	0.584	0	-4.907	1	0.057	0.0368	0.0000996	0.384	0.685	170.411	278747	4
+2FjoCQaBoiEKs3FCvD0HkR	Unbearably White	Father of the Bride	Vampire Weekend	0.531	0.422	10	-7.081	1	0.0571	0.219	0.0198	0.0608	0.579	188.056	280200	4
+6IZvVAP7VPPnsGX6bvgkqg	PRIDE.	DAMN.	Kendrick Lamar	0.665	0.535	4	-7.056	0	0.0572	0.0786	0.0000168	0.154	0.37	138.842	275253	4
+0LtOwyZoSNZKJWHqjzADpW	Feels Like We Only Go Backwards	Lonerism	Tame Impala	0.303	0.9	2	-2.352	0	0.0574	0.0277	0.635	0.11	0.491	149.508	192960	4
+4PvVX27CitqLAamcc0PCRU	B	SYRE	Jaden	0.515	0.391	2	-11.109	0	0.0575	0.227	0	0.355	0.47	144.487	186176	4
+7clUVcSOtkNWa58Gw5RfD4	Speed of Sound	X&Y	Coldplay	0.514	0.898	11	-6.765	0	0.0577	0.00488	0.0345	0.0746	0.353	123.067	287907	4
+6LgJvl0Xdtc73RJ1mmpotq	Paranoid Android	OK Computer	Radiohead	0.251	0.848	5	-6.501	1	0.0579	0.0377	0.00591	0.0545	0.207	163.709	387213	4
+4t2OeILB07eMGTXSUbMPEu	Oxytocin	Happier Than Ever	Billie Eilish	0.757	0.598	11	-7.777	1	0.058	0.0904	0.551	0.15	0.18	124.951	210233	4
+3I7OmVsk4Hm5LBbs2GmhlD	Reality In Motion	Currents	Tame Impala	0.536	0.915	2	-4.993	1	0.0581	0.154	0.000788	0.372	0.472	115.037	252027	4
+2pJsD19TxWvSSTkBKrJDWA	Stars - Live At Vine St. Bar & Grill/1987	Let It Be Me (Live)	Nina Simone	0.513	0.194	5	-14.177	1	0.0584	0.884	0	0.707	0.164	98.112	272733	4
+0gzqZ9d1jIKo9psEIthwXe	Beautiful Day	All That You Can't Leave Behind	U2	0.536	0.928	11	-6.492	0	0.0589	0.0154	0.00134	0.2	0.389	136.258	248400	4
+0vXf5zT0nkAvul9bG4CDAY	Nuvole bianche	Una mattina	Ludovico Einaudi	0.192	0.0553	8	-25.36	1	0.0591	0.958	0.865	0.0942	0.0441	136.463	357707	4
+3GCdLUSnKSMJhs4Tj6CV3s	All The Stars (with SZA)	Black Panther The Album Music From And Inspired By	Kendrick Lamar	0.698	0.633	8	-4.946	1	0.0597	0.0605	0.000194	0.0926	0.552	96.924	232187	4
+1fDsrQ23eTAVFElUMaf38X	American Pie	American Pie	Don McLean	0.531	0.481	4	-11.709	0	0.06	0.699	0	0.0842	0.491	138.45	516893	4
+31L9yLXSj6LpCFupyMV6CR	Up&Up	A Head Full of Dreams	Coldplay	0.479	0.717	7	-5.459	1	0.0605	0.0488	0.000333	0.102	0.253	163.989	405320	4
+4l86U8arITFVBfDvYn82v7	"I Love You, Honeybear"	"I Love You, Honeybear"	Father John Misty	0.19	0.725	7	-6.181	0	0.0607	0.302	0.00447	0.0801	0.313	211.116	278773	3
+0MHHAIjPAd3OSfBS3H0fPg	My God Is the Sun	...Like Clockwork	Queens of the Stone Age	0.187	0.855	11	-4.316	0	0.0624	0.000531	0.0204	0.361	0.257	160.892	235400	3
+0szSOfZVM3G5mWI1ogQjr7	Mourning Sound	Painted Ruins	Grizzly Bear	0.507	0.737	7	-6.332	1	0.0624	0.15	0.159	0.122	0.441	128.015	262107	4
+4rDbp1vnvEhieiccprPMdI	Somebody To Love - Remastered 2011	A Day At The Races (Deluxe Edition 2011 Remaster)	Queen	0.406	0.698	8	-7.024	1	0.0624	0.186	0	0.233	0.333	109.266	296480	3
+0cjEeXxL95rqQH58gyqsCB	The White Lady	Hollow Knight (Original Soundtrack)	Christopher Larkin	0.467	0.0274	10	-19.007	1	0.063	0.99	0.847	0.0967	0.131	66.125	79624	3
+2mLBqg6wbo6cY0zxiafaa4	Madeline and Theo	Celeste (Original Soundtrack)	Lena Raine	0.852	0.236	0	-21.396	1	0.0636	0.836	0.827	0.109	0.133	119.981	188157	4
+58KPPL1AdLHMvR2O2PZejr	Jesus of Suburbia	American Idiot	Green Day	0.3	0.929	1	-3.214	1	0.0636	0.000259	0.00000226	0.329	0.59	147.116	548253	4
+5Z9KJZvQzH6PFmb8SNkxuk	INDUSTRY BABY (feat. Jack Harlow)	MONTERO	Lil Nas X	0.741	0.691	10	-7.395	0	0.0672	0.0221	0	0.0476	0.892	150.087	212353	4
+3dPQuX8Gs42Y7b454ybpMR	Seven Nation Army	Elephant	The White Stripes	0.743	0.446	4	-7.807	0	0.0683	0.0039	0.118	0.337	0.278	123.596	232107	4
+5by3w3NXvwDpV9FBSOR35u	Heroin	The Velvet Underground & Nico 45th Anniversary	The Velvet Underground	0.201	0.777	1	-10.167	1	0.0705	0.304	0.78	0.0981	0.235	145.733	433573	4
+0c4IEciLCDdXEhhKxj4ThA	Madness	The 2nd Law	Muse	0.502	0.417	10	-7.665	1	0.0718	0.127	0.00419	0.106	0.218	180.301	281040	4
+1jJci4qxiYcOHhQR247rEU	Kids	Oracular Spectacular	MGMT	0.451	0.931	9	-3.871	1	0.0719	0.00076	0.0049	0.361	0.172	122.961	302840	4
+7tF0g57CG25Ew3GX7wa67l	Smoke And Mirrors	Making Mirrors	Gotye	0.58	0.894	10	-6.27	0	0.0737	0.0962	0.229	0.297	0.622	186.241	313186	3
+5HLes17mwCwKt81mi0Tk35	"Archie, Marry Me"	Alvvays	Alvvays	0.27	0.83	7	-4.592	1	0.0741	0.00956	0.434	0.142	0.205	117.314	196560	4
+6ft9PAgNOjmZ2kFVP7LGqb	Can't Take My Eyes off You	The Very Best of Frankie Valli & The 4 Seasons	Frankie Valli	0.575	0.764	4	-7.448	1	0.0746	0.566	0.0000107	0.0692	0.536	123.821	203240	4
+6tJFtthY0rI1x06qb8NjK0	The Mandalorian	The Mandalorian: Chapter 1 (Original Score)	Ludwig Goransson	0.417	0.408	5	-13.343	0	0.0761	0.535	0.655	0.102	0.233	165.799	198862	4
+4EyPaNrpRDf2XYRvpfhgo9	Gato's Song	CHRONO TRIGGER Original Soundtrack【DS Edition】	Yasunori Mitsuda	0.83	0.879	7	-7.48	1	0.0772	0.291	0.631	0.203	0.983	99.052	40987	4
+5POEFQCKtD0QxYLfZ2kqEx	BagBak	Big Fish Theory	Vince Staples	0.76	0.828	1	-4.532	1	0.0789	0.0478	0.000427	0.0893	0.923	82.006	160507	4
+0wzRcekWyVCSyPtlPOeJau	Go With The Flow	Songs For The Deaf	Queens of the Stone Age	0.246	0.991	9	-3.903	1	0.087	0.00944	0.0753	0.867	0.415	159.39	187147	4
+1xzUQMiCoY5pdego0pHMeV	She Knows This	Man On The Moon III: The Chosen	Kid Cudi	0.39	0.724	6	-7.607	0	0.0889	0.162	0	0.393	0.312	165.945	216560	4
+7nzsY8vlnKdvGOEE0rjAXZ	Arabella	AM	Arctic Monkeys	0.579	0.558	2	-6.986	1	0.0895	0.0202	0.00000126	0.212	0.506	179.949	207357	4
+40jxatV29fk82SAziDsPqN	Rose Golden	"Passion, Pain & Demon Slayin'"	Kid Cudi	0.594	0.762	9	-7.951	0	0.0899	0.426	0	0.085	0.588	139.932	277813	4
+3qT4bUD1MaWpGrTwcvguhb	Black Dog - Remaster	Led Zeppelin IV (Deluxe Edition)	Led Zeppelin	0.437	0.864	4	-7.842	0	0.0904	0.396	0.0314	0.242	0.749	81.394	295387	4
+1K2RnVhm3eauKnA8PAcPu1	Heat Waves - Slowed	Heat Waves (Expansion Pack)	Glass Animals	0.633	0.55	9	-9.965	1	0.0924	0.649	0.000363	0.147	0.333	147.099	262248	4
+6PGoSes0D9eUDeeAafB2As	LOVE. FEAT. ZACARI.	DAMN.	Kendrick Lamar	0.8	0.585	10	-7.343	1	0.0924	0.264	0	0.153	0.779	126.058	213400	4
+4ifTvd6kczZvB6jDAheTwI	Far Off Promise	CHRONO TRIGGER Original Soundtrack【DS Edition】	Yasunori Mitsuda	0.713	0.397	3	-12.105	1	0.0931	0.99	0.492	0.277	0.969	90.003	114187	3
+5ubHAQtKuFfiG4FXfLP804	Lego House	+	Ed Sheeran	0.592	0.637	11	-8.48	1	0.0992	0.562	0	0.13	0.565	159.701	185093	4
+6GCWqj9LIltAq1WRCWSUc8	¡Viva La Gloria!	21st Century Breakdown	Green Day	0.232	0.937	4	-4.141	1	0.0998	0.00389	0	0.516	0.296	178.431	210507	4
+7KXjTSCq5nL1LoYtL7XAwS	HUMBLE.	DAMN.	Kendrick Lamar	0.908	0.621	1	-6.638	0	0.102	0.000282	0.0000539	0.0958	0.421	150.011	177000	4
+0fX4oNGBWO3dSGUZcVdVV2	N95	Mr. Morale & The Big Steppers	Kendrick Lamar	0.79	0.67	1	-5.527	1	0.105	0.377	0.00000232	0.119	0.408	139.956	195950	4
+5O8L4I2S4izFGDjvP7xAKv	You Know You're Right	Nirvana	Nirvana	0.289	0.716	5	-6.53	0	0.106	0.0407	0.00123	0.135	0.344	168.049	217000	4
+05evePUsIT1cmIURp1hgu6	Planet Telex	The Bends	Radiohead	0.429	0.88	9	-8.013	0	0.109	0.0206	0.698	0.607	0.255	148.965	259200	3
+3DK6m7It6Pw857FcQftMds	Runaway	My Beautiful Dark Twisted Fantasy	Kanye West	0.374	0.568	1	-3.825	0	0.109	0.219	0.00219	0.513	0.111	84.733	547733	4
+5rb9QrpfcKFHM1EUbSIurX	Yeah! (feat. Lil Jon & Ludacris)	Confessions (Expanded Edition)	Usher	0.894	0.791	2	-4.699	1	0.112	0.0183	0	0.0388	0.583	105.018	250373	4
+6MXXY2eiWkpDCezVCc0cMH	Good Morning	Graduation	Kanye West	0.48	0.631	7	-5.488	1	0.116	0.0791	0.000105	0.149	0.515	84.164	195093	4
+0y1QJc3SJVPKJ1OvFmFqe6	Way down We Go	A/B	KALEO	0.489	0.505	10	-8.022	0	0.117	0.579	0.000333	0.104	0.337	163.255	213707	4
+43gcr2I2dOaOpKrUJJ22Ix	Prenzlauerberg	Gulag Orkestar	Beirut	0.238	0.896	3	-5.039	1	0.117	0.51	0.0000496	0.352	0.461	129.912	226733	3
+5JWPUEov2wlX7c0jhYZpeB	Lost In Yesterday	The Slow Rush	Tame Impala	0.569	0.84	1	-4.123	1	0.118	0.0295	0.000118	0.0995	0.749	183.059	249587	3
+4pbJqGIASGPr0ZpGpnWkDn	We Will Rock You - Remastered 2011	News Of The World (2011 Remaster)	Queen	0.692	0.497	2	-7.316	1	0.119	0.676	0	0.259	0.475	81.308	122067	4
+0UtnpKaReKUg2GquaSxCyD	Money Trees	"good kid, m.A.A.d city (Deluxe)"	Kendrick Lamar	0.716	0.531	7	-7.355	1	0.122	0.0703	0	0.224	0.344	71.994	386907	4
+2mjbf9ZvCoYqTi0RZ2FTUJ	Wakanda	Black Panther (Original Score)	Ludwig Goransson	0.399	0.453	0	-12.03	1	0.145	0.6	0.497	0.0913	0.269	81.149	140125	3
+2uhEKg8kIzpdvz4gyy6x8W	Only Love	Every Kingdom	Ben Howard	0.545	0.485	8	-9.941	1	0.151	0.3	0.00137	0.119	0.341	80.401	249173	4
+6tLALP9mi7VbNC7s16iBRK	Bloom	The King Of Limbs	Radiohead	0.518	0.959	0	-7.596	0	0.157	0.62	0.884	0.0831	0.341	149.722	313671	4
+5vdp5UmvTsnMEMESIF2Ym7	Another One Bites The Dust - Remastered 2011	The Game (2011 Remaster)	Queen	0.933	0.528	5	-6.472	0	0.161	0.112	0.312	0.163	0.754	109.967	214653	4
+1R28m5eWk1EV9FQ3puWrUp	Fazers	Take Me To Your Leader	King Geedorah	0.423	0.965	2	-2.011	1	0.166	0.0105	0.0000101	0.234	0.719	90.564	197133	4
+5T8EDUDqKcs6OSOwEsfqG7	Don't Stop Me Now - Remastered 2011	Jazz (2011 Remaster)	Queen	0.559	0.868	5	-5.276	1	0.17	0.0475	0.000176	0.776	0.609	156.295	209413	4
+1cCbsojaA6GIT7Y3zuMJ1q	Nangs	Currents	Tame Impala	0.536	0.526	0	-9.754	1	0.181	0.159	0.847	0.128	0.434	167.608	107533	4
+7Lf7oSEVdzZqTA0kEDSlS5	Cry Me a River	Justified	Justin Timberlake	0.624	0.654	8	-6.582	0	0.183	0.577	0	0.104	0.564	73.898	288333	4
+2Im64pIz6m0EJKdUe6eZ8r	Lost In The World	My Beautiful Dark Twisted Fantasy	Kanye West	0.608	0.746	5	-5.249	0	0.184	0.115	0.0087	0.427	0.277	117.072	256587	4
+285pBltuF7vW8TeWk8hdRR	Lucid Dreams	Goodbye & Good Riddance	Juice WRLD	0.511	0.566	6	-7.23	0	0.2	0.349	0	0.34	0.218	83.903	239836	4
+1QPreu0BNOrUfEb8HTd2qG	Rich Spirit	Mr. Morale & The Big Steppers	Kendrick Lamar	0.852	0.421	10	-9.153	0	0.208	0.428	0.00000228	0.106	0.457	95.977	202285	4
+1ixbwbeBi5ufN4noUKmW5a	Paper Planes	Kala	M.I.A.	0.447	0.848	2	-6.175	1	0.222	0.033	0.0000746	0.65	0.485	172.253	205200	4
+3iVcZ5G6tvkXZkZKlMpIUs	Alright	To Pimp A Butterfly	Kendrick Lamar	0.796	0.766	7	-5.974	1	0.238	0.0742	0	0.0827	0.558	110.034	219333	4
+2g6tReTlM2Akp41g0HaeXN	Die Hard	Mr. Morale & The Big Steppers	Kendrick Lamar	0.775	0.736	1	-8.072	0	0.247	0.319	0.00116	0.127	0.362	100.988	239027	4
+6bGwloiyyHXwFZ4yV1zjqR	Legend Has It	Run the Jewels 3	Run The Jewels	0.829	0.563	7	-7.082	1	0.254	0.0249	0	0.0967	0.469	120.965	205867	4
+4LmAnpjlhWTahvRkYR8xJa	X (with 2 Chainz & Saudi)	Black Panther The Album Music From And Inspired By	ScHoolboy Q	0.768	0.471	2	-8.406	1	0.259	0.0201	0	0.268	0.405	131.023	267427	4
+0DJBgBiYeSn6n1AXAkFVE8	I Am	Black Panther The Album Music From And Inspired By	Jorja Smith	0.601	0.583	8	-5.725	0	0.263	0.144	0.0000973	0.183	0.32	148.785	208760	4
+15hJmqqEtASVXl6sM7i4UF	trademark usa	The Melodic Blue	Baby Keem	0.615	0.6	10	-5.62	1	0.27	0.107	0.00000161	0.283	0.0661	130.027	270671	4
+4IFiguNcYCsT9pQ00mtXqp	All Herb (feat. Amindi)	The House Is Burning	Isaiah Rashad	0.728	0.684	5	-6.619	0	0.274	0.0365	0.012	0.628	0.516	83.383	224448	4
+59WN2psjkt1tyaxjspN8fp	Killing In The Name	Rage Against The Machine - XX (20th Anniversary Special Edition)	Rage Against The Machine	0.466	0.833	7	-4.215	1	0.304	0.0266	0	0.0327	0.661	88.785	313573	4
+5i5fCpsnqDJ9AfeObgd0gW	Guilty Conscience - Tame Impala Remix	Guilty Conscience (Tame Impala Remix)	070 Shake	0.415	0.878	1	-3.65	0	0.32	0.0564	0.00348	0.222	0.309	191.777	214987	4
+1eLSF6HfrRA0AsNmTkUlKx	"King's Dead (with Kendrick Lamar, Future & James Blake)"	Black Panther The Album Music From And Inspired By	Kendrick Lamar	0.566	0.724	1	-4.574	1	0.323	0.00102	0	0.158	0.407	81.774	225267	4
+7bUcBztfGqO7cSI2gMZeCI	Opps (with Yugen Blakrok)	Black Panther The Album Music From And Inspired By	Vince Staples	0.706	0.775	1	-6.819	1	0.335	0.152	0.0000332	0.416	0.847	127.929	180893	4
+28qA8y1sz0FTuSapsCxNOG	Father Time (feat. Sampha)	Mr. Morale & The Big Steppers	Kendrick Lamar	0.514	0.779	10	-4.365	0	0.344	0.181	0	0.099	0.517	152.869	222497	4
+14blxrgE0VWAgv5aF2wWmx	Good Life	Graduation	Kanye West	0.439	0.808	1	-6.881	1	0.346	0.00305	0	0.439	0.487	82.962	207000	4
+6HZILIRieu8S0iqY8kIKhj	DNA.	DAMN.	Kendrick Lamar	0.638	0.523	1	-6.664	1	0.357	0.00454	0	0.0842	0.422	139.913	185947	4
+40wUM3LFZOlUcZfxEIZrYK	Swimming Pools (Drank) - Extended Version	"good kid, m.A.A.d city (Deluxe)"	Kendrick Lamar	0.716	0.485	1	-7.745	1	0.404	0.123	0.0000269	0.604	0.26	74.132	313787	4
+4iYRa2btalAzPZoSYfROqF	XXX. FEAT. U2.	DAMN.	Kendrick Lamar	0.568	0.619	1	-6.899	1	0.414	0.138	0.00000167	0.11	0.293	170.115	254200	4
