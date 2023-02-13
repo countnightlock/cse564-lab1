@@ -5,13 +5,6 @@ import BarChart from './charts/BarChart';
 
 import { fetchData } from './utils/file';
 
-const datas = [
-    [10, 30, 40, 20],
-    [10, 40, 30, 20, 50, 10],
-    [60, 30, 40, 20, 30]
-]
-var i = 0;
-
 class App extends Component {
     constructor(props) {
         super(props);
@@ -26,7 +19,8 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <BarChart data={this.state.data} dimension="key"/>
+                <h4>Key (Frequencies)</h4>
+                <BarChart data={this.state.data} dimension="key" sortFunction={(d) => (+d["key"])}/>
             </div>
         )
     }
