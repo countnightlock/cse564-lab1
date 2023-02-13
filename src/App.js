@@ -21,8 +21,10 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <h4>Key (Frequencies)</h4>
-                <ScatterPlot data={this.state.data} dimensionX="liveness" dimensionY="valence"/>
+                <h1>Key (Frequencies)</h1>
+                <BarChart data={this.state.data} dimension="key" sortFunction={(d) => (+d["key"])}/>
+                <Histogram data={this.state.data} dimension="loudness"/>
+                <ScatterPlot data={this.state.data} dimensionX="valence" dimensionY="speechiness"/>
             </div>
         )
     }

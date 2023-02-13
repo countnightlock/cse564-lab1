@@ -11,6 +11,34 @@ class ScatterPlot extends Component {
         // TODO: move init logic here
     }
 
+    getBestFitLine(data, dimensionX, dimensionY, n) {
+        const meanX = d3.sum(data, d => d[dimensionX]) / n;
+        const meanY = d3.sum(data, d => d[dimensionY]) / n;
+
+        console.log(meanX);
+        console.log(meanY);
+
+        const m = d3.sum(data, d => ((d[dimensionX] - meanX)*(d[dimensionY] - meanY))) / d3.sum(data, d => ((d[dimensionX] - meanX)*(d[dimensionX] - meanX)));
+
+        const b = meanY - m * meanX;
+
+
+        console.log(m);
+        console.log(b);
+
+        // y = mx + b
+
+        const [x0, x1] = d3.extent(data, d => d[dimensionX]);
+        const [y0, y1] = [x0, x1].map(x => m * x + b);
+
+        console.log(x0);
+        console.log(y0);
+        console.log(x1);
+        console.log(y1);
+
+        return [x0, x1, y0, y1];
+    }
+
     // TODO: this can definitely be cleaned up
     plotScatterPlot(chart, width, height, margins) {
         const dimensionX = this.props.dimensionX;
@@ -61,8 +89,7 @@ class ScatterPlot extends Component {
             .attr('transform', `translate(0, ${height})`)
             .call(xAxis)
             .selectAll('text')
-            .attr('transform', 'translate(-10,0) rotate(-45)')
-            .style('text-anchor', 'end');
+            .style('text-anchor', 'middle');
 
         chart.select('.x-axis')
             .append('text')
@@ -87,6 +114,16 @@ class ScatterPlot extends Component {
             .style('text-anchor', 'middle')
             .text('↑ ' + dimensionY);
 
+        const [x1, x2, y1, y2] = this.getBestFitLine(data, dimensionX, dimensionY, 500);
+
+        chart.append('line')
+            .classed('best-fit', true)
+            .attr('x1', xScale(x1))
+            .attr('y1', yScale(y1))
+            .attr('x2', xScale(x2))
+            .attr('y2', yScale(y2))
+            .attr('stroke', 'red')
+            .style('stroke-opacity', 0.8);
     }
 
     drawChart() {
