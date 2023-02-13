@@ -19,7 +19,7 @@ export async function fetchData() {
             valence: +datum.valence,
             tempo: +datum.tempo,
             duration_ms: +datum.duration_ms,
-            time_signature: +datum.time_signature,
+            time_signature: datum.time_signature,
         }
     });
 

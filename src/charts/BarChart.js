@@ -66,11 +66,10 @@ class BarChart extends Component {
         const xAxis = d3.axisBottom()
             .scale(xScale)
             .tickFormat((dv, i) => {
-                console.log(dv);
-                return dimensions.get(dimension).get('valueMap').get(dv);
+                const val = dimensions.get(dimension).get('valueMap').get(dv)
+                return val ? val : '???';
             });
-            
-            
+
         const yAxis = d3.axisLeft()
             .ticks(15)
             .scale(yScale);

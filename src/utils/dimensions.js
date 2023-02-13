@@ -38,6 +38,21 @@ function createDimensions() {
         return map;
     })());
 
+    map.set('time_signature', (() => {
+        const map = new Map();
+        map.set('name', 'time_signature');
+        map.set('title', 'Time Signature');
+        map.set('description', 'An estimated time signature. The time signature (meter) is a notational convention to specify how many beats are in each bar (or measure). The time signature ranges from 3 to 7 indicating time signatures of "3/4", to "7/4".');
+        const valueMap = new Map();
+        valueMap.set('3', '3/4');
+        valueMap.set('4', '4/4');
+        valueMap.set('5', '5/4');
+        valueMap.set('6', '6/4');
+        valueMap.set('7', '7/4');
+        map.set('valueMap', valueMap);
+        return map;
+    })());
+
     return map;
 }
 
