@@ -1,31 +1,43 @@
-// BarChart.js
+// Histogram.js
 import * as d3 from 'd3';
 import { Component } from 'react';
 import { Element } from 'react-faux-dom';
 
 import { dimensions } from '../utils/dimensions';
 
-class BarChart extends Component {
+class Histogram extends Component {
 
     componentDidMount() {
         // TODO: move init logic here
     }
 
     // TODO: this can definitely be cleaned up
-    plotBarChart(chart, width, height, margins) {
+    // Adapted from https://observablehq.com/@d3/histogram
+    plotHistogram(chart, width, height, margins) {
         const dimension = this.props.dimension;
         const data = d3.sort(this.props.data, this.props.sortFunction);
 
-        // dimension -> frequency map
-        const frequencies = d3.rollup(data, v => v.length, d => d[dimension]);
+        const X = d3.map(data, d => d[dimension]);
+        const Y0 = d3.map(data, () => 1);
+        const I = d3.range(X.length);
 
-        const xScale = d3.scaleBand()
-            .domain(frequencies.keys())
-            .range([0, width])
-            .padding(0.1);
+        // const binningFunction = d3.bin().thresholds(10);
+        // const bins = binningFunction(X);
+
+        const bins = d3.bin()
+            .thresholds(20)
+            .value(i => X[i])(I);
+
+        const Y = Array.from(bins, bin => d3.sum(bin, i => Y0[i]));
+
+        const xScale = d3.scaleLinear()
+            .domain([
+               bins[0].x0, bins[bins.length - 1].x1
+            ])
+            .range([0, width]);
 
         const yScale = d3.scaleLinear()
-            .domain([0, d3.max(frequencies.values())]).nice()
+            .domain([0, d3.max(Y)]).nice()
             .range([height, 0]);
 
         const yGridLines = d3.axisLeft()
@@ -40,35 +52,32 @@ class BarChart extends Component {
             .attr('stroke-opacity', 0.1);
 
         chart.selectAll('.bar')
-            .data(frequencies.entries())
+            .data(bins)
             .enter()
             .append('rect')
             .classed('bar', true)
-            .attr('x', d => xScale(d[0]))
-            .attr('y', d => yScale(d[1]))
-            .attr('height', d => (height - yScale(d[1])))
-            .attr('width', xScale.bandwidth())
+            .attr('x', d => xScale(d.x0))
+            .attr('y', (d, i) => yScale(Y[i]))
+            .attr('height', (d, i) => (yScale(0) - yScale(Y[i])))
+            .attr('width', (d, i) => Math.max(0, xScale(d.x1) - xScale(d.x0)))
             .style('stroke', '#191414')
             .style('fill', '#1DB954');
 
         chart.selectAll('.bar-label')
-            .data(frequencies.entries())
+            .data(bins)
             .enter()
             .append('text')
             .classed('bar-label', true)
-            .attr('x', d => xScale(d[0]))
-            .attr('dx', xScale.bandwidth()/2)
-            .attr('y', d => yScale(d[1]))
+            .attr('x', d => xScale(d.x0))
+            .attr('dx', (d, i) => Math.max(0, xScale(d.x1) - xScale(d.x0))/2)
+            .attr('y', (d, i) => yScale(Y[i]))
             .attr('dy', -6)
             .style('text-anchor', 'middle')
-            .text(d => d[1]);
-        
+            .text((d, i) => Y[i].toString());
+
         const xAxis = d3.axisBottom()
             .scale(xScale)
-            .tickFormat((dv, i) => {
-                const val = dimensions.get(dimension).get('valueMap').get(dv)
-                return val ? val : '???';
-            });
+            .ticks(bins.length);
 
         const yAxis = d3.axisLeft()
             .ticks(15)
@@ -89,7 +98,7 @@ class BarChart extends Component {
             .attr('fill', 'currentColor')
             .style('font-size', '12px')
             .style('text-anchor', 'end')
-            .text(dimensions.get(dimension).get('title') + ' →');
+            .text('Energy' + ' →');
 
         chart.append('g')
             .classed('y-axis', true)
@@ -134,7 +143,7 @@ class BarChart extends Component {
         const chartWidth = width - (margins.left + margins.right);
         const chartHeight = height - (margins.top + margins.bottom);
 
-        this.plotBarChart(chart, chartWidth, chartHeight, margins);
+        this.plotHistogram(chart, chartWidth, chartHeight, margins);
 
         return div.toReact();
     }
@@ -144,4 +153,4 @@ class BarChart extends Component {
     }
 }
 
-export default BarChart;
+export default Histogram;

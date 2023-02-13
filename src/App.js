@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import BarChart from './charts/BarChart';
+import Histogram from './charts/Histogram';
 
 import { fetchData } from './utils/file';
 
@@ -19,8 +20,8 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <h4>Time Signature (Frequencies)</h4>
-                <BarChart data={this.state.data} dimension="time_signature" sortFunction={(d) => (+d["time_signature"])}/>
+                <h4>Key (Frequencies)</h4>
+                <Histogram data={this.state.data} dimension="tempo" sortFunction={(d) => (d["tempo"])}/>
             </div>
         )
     }
