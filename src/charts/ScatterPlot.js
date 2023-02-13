@@ -11,32 +11,27 @@ class ScatterPlot extends Component {
         // TODO: move init logic here
     }
 
-    getBestFitLine(data, dimensionX, dimensionY, n) {
-        const meanX = d3.sum(data, d => d[dimensionX]) / n;
-        const meanY = d3.sum(data, d => d[dimensionY]) / n;
+    getBestFitLine(data, dimensionX, dimensionY) {
+        const meanX = d3.mean(data, d => d[dimensionX]);
+        const meanY = d3.mean(data, d => d[dimensionY]);
 
-        console.log(meanX);
-        console.log(meanY);
+        const cov = d3.sum(data, d => ((d[dimensionX] - meanX)*(d[dimensionY] - meanY)));
+        const varX = d3.sum(data, d => ((d[dimensionX] - meanX)*(d[dimensionX] - meanX)));
+        const varY = d3.sum(data, d => ((d[dimensionY] - meanY)*(d[dimensionY] - meanY)));
 
-        const m = d3.sum(data, d => ((d[dimensionX] - meanX)*(d[dimensionY] - meanY))) / d3.sum(data, d => ((d[dimensionX] - meanX)*(d[dimensionX] - meanX)));
+        const m = cov / varX;
 
         const b = meanY - m * meanX;
 
-
-        console.log(m);
-        console.log(b);
+        // Pearson's Correlation Coeff
+        const r = cov / Math.sqrt(varX * varY);
 
         // y = mx + b
+        const [x1, x2] = d3.extent(data, d => d[dimensionX]);
+        const [y1, y2] = [x1, x2].map(x => m * x + b);
 
-        const [x0, x1] = d3.extent(data, d => d[dimensionX]);
-        const [y0, y1] = [x0, x1].map(x => m * x + b);
-
-        console.log(x0);
-        console.log(y0);
-        console.log(x1);
-        console.log(y1);
-
-        return [x0, x1, y0, y1];
+        // TODO: fix for lines that intersect with the y axis below min(Y)
+        return [x1, x2, y1, y2, r];
     }
 
     // TODO: this can definitely be cleaned up
@@ -114,7 +109,7 @@ class ScatterPlot extends Component {
             .style('text-anchor', 'middle')
             .text('↑ ' + dimensionY);
 
-        const [x1, x2, y1, y2] = this.getBestFitLine(data, dimensionX, dimensionY, 500);
+        const [x1, x2, y1, y2, r] = this.getBestFitLine(data, dimensionX, dimensionY, 500);
 
         chart.append('line')
             .classed('best-fit', true)
@@ -124,6 +119,14 @@ class ScatterPlot extends Component {
             .attr('y2', yScale(y2))
             .attr('stroke', 'red')
             .style('stroke-opacity', 0.8);
+
+        chart.append('text')
+            .classed('pearson-coeff', true)
+            .attr('x', width)
+            .attr('y', 0)
+            .style('text-anchor', 'end')
+            .style('fill', 'red')
+            .text(`R: ${parseFloat(r).toFixed(3)}`);
     }
 
     drawChart() {
