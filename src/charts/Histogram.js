@@ -25,10 +25,13 @@ class Histogram extends Component {
         // const bins = binningFunction(X);
 
         const bins = d3.bin()
+            // TODO: fool this function into generating more bins
             .thresholds(20)
             .value(i => X[i])(I);
 
         const Y = Array.from(bins, bin => d3.sum(bin, i => Y0[i]));
+
+        console.log(Y);
 
         const xScale = d3.scaleLinear()
             .domain([
