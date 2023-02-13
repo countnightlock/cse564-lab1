@@ -21,7 +21,7 @@ class App extends Component {
         return (
             <div className="App">
                 <h4>Key (Frequencies)</h4>
-                <Histogram data={this.state.data} dimension="tempo" sortFunction={(d) => (d["tempo"])}/>
+                <Histogram data={this.state.data} dimension="duration_ms" sortFunction={(d) => (d["duration_ms"])}/>
             </div>
         )
     }

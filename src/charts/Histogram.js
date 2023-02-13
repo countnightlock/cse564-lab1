@@ -77,6 +77,14 @@ class Histogram extends Component {
 
         const xAxis = d3.axisBottom()
             .scale(xScale)
+            .tickFormat((dv) => {
+                if (dimension !== 'duration_ms') return dv;
+
+                const date = new Date(dv);
+                return [date.getMinutes(), date.getSeconds()].map(
+                    v => String(v).padStart(2, '0')
+                ).join(':');
+            })
             .ticks(bins.length);
 
         const yAxis = d3.axisLeft()
