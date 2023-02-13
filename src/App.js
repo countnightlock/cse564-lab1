@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import BarChart from './charts/BarChart';
 import Histogram from './charts/Histogram';
+import ScatterPlot from './charts/ScatterPlot';
 
 import { fetchData } from './utils/file';
 
@@ -21,7 +22,7 @@ class App extends Component {
         return (
             <div className="App">
                 <h4>Key (Frequencies)</h4>
-                <Histogram data={this.state.data} dimension="duration_ms" sortFunction={(d) => (d["duration_ms"])}/>
+                <ScatterPlot data={this.state.data} dimensionX="liveness" dimensionY="valence"/>
             </div>
         )
     }
