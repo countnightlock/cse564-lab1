@@ -9,7 +9,7 @@ export async function fetchData() {
             artist_name: datum.artist_name,
             danceability: +datum.danceability,
             energy: +datum.energy,
-            key: +datum.key,
+            key: datum.key,
             loudness: +datum.loudness,
             mode: +datum.mode,
             speechiness: +datum.speechiness,

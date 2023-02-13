@@ -24,14 +24,9 @@ class App extends Component {
     }
 
     render() {
-        let { data } = this.state;
-        console.log("printing data");
-        console.log(data);
         return (
             <div className="App">
-                <p>
-                    {JSON.stringify(data)}
-                </p>
+                <BarChart data={this.state.data} dimension="key"/>
             </div>
         )
     }
