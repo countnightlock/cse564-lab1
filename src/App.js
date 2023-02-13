@@ -19,8 +19,8 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <h4>Key (Frequencies)</h4>
-                <BarChart data={this.state.data} dimension="key" sortFunction={(d) => (+d["key"])}/>
+                <h4>Mode (Frequencies)</h4>
+                <BarChart data={this.state.data} dimension="mode" sortFunction={(d) => (+d["mode"])}/>
             </div>
         )
     }

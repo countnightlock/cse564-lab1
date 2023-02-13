@@ -26,6 +26,18 @@ function createDimensions() {
         return map;
     })());
 
+    map.set('mode', (() => {
+        const map = new Map();
+        map.set('name', 'mode');
+        map.set('title', 'Mode');
+        map.set('description', 'Mode indicates the modality (major or minor) of a track, the type of scale from which its melodic content is derived. Major is represented by 1 and minor is 0.');
+        const valueMap = new Map();
+        valueMap.set('0', 'Minor');
+        valueMap.set('1', 'Major');
+        map.set('valueMap', valueMap);
+        return map;
+    })());
+
     return map;
 }
 

@@ -20,7 +20,6 @@ class BarChart extends Component {
         const frequencies = d3.rollup(data, v => v.length, d => d[dimension]);
 
         const xScale = d3.scaleBand()
-            // .domain(data.map(d => d[dimension]))
             .domain(frequencies.keys())
             .range([0, width])
             .padding(0.1);
@@ -66,7 +65,12 @@ class BarChart extends Component {
         
         const xAxis = d3.axisBottom()
             .scale(xScale)
-            .tickFormat((dv, i) => dimensions.get(dimension).get('valueMap').get(dv));
+            .tickFormat((dv, i) => {
+                console.log(dv);
+                return dimensions.get(dimension).get('valueMap').get(dv);
+            });
+            
+            
         const yAxis = d3.axisLeft()
             .ticks(15)
             .scale(yScale);

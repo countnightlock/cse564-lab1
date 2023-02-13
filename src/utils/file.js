@@ -11,7 +11,7 @@ export async function fetchData() {
             energy: +datum.energy,
             key: datum.key,
             loudness: +datum.loudness,
-            mode: +datum.mode,
+            mode: datum.mode,
             speechiness: +datum.speechiness,
             acousticness: +datum.acousticness,
             instrumentalness: +datum.instrumentalness,
