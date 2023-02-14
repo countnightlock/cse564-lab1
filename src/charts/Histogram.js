@@ -99,13 +99,12 @@ class Histogram extends Component {
             .attr('transform', `translate(0, ${height})`)
             .call(xAxis)
             .selectAll('text')
-            .attr('transform', 'translate(-10,0) rotate(-45)')
-            .style('text-anchor', 'end');
+            .style('text-anchor', 'middle');
 
         chart.select('.x-axis')
             .append('text')
             .attr('x', width)
-            .attr('y', 27)
+            .attr('y', 30)
             .attr('fill', 'currentColor')
             .style('font-size', '12px')
             .style('text-anchor', 'end')
@@ -137,8 +136,8 @@ class Histogram extends Component {
             .attr('id', 'chart')
             .attr('viewBox', [0, 0, width, height])
             .style('max-width', '100%')
-            .style('height', 'auto')
-            .style('height', 'intrinsic');
+            // .style('height', 'auto')
+            // .style('height', 'intrinsic');
 
         const margins = {
             top: 60,
