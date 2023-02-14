@@ -10,7 +10,7 @@ import { fetchData } from './utils/file';
 class App extends Component {
     constructor(props) {
         super(props);
-        this.state = {data: [], dimension: 'acousticness', dimensions: []};
+        this.state = {data: [], dimension: '', dimensions: []};
     }
 
     async componentDidMount() {
@@ -24,6 +24,7 @@ class App extends Component {
     }
 
     handleMultiDimensionSelect = (e) => {
+        this.setState( {dimension : ""});
         this.setState({ dimensions: e.target.value });
     }
 

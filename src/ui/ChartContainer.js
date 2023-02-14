@@ -7,6 +7,14 @@ import { dimensionsConfig } from '../utils/dimensions';
 class ChartContainer extends Component {
     render() {
         let chart;
+        if (!this.props.dimension && this.props.dimensions.length !== 2) {
+            return (
+                <p>
+                    Select a dimension to chart.
+                </p>
+            );
+        }
+
         if (this.props.dimensions.length == 2) {
             const [dimensionX, dimensionY] = this.props.dimensions;
             chart = <ScatterPlot data={this.props.data} dimensionX={dimensionX} dimensionY={dimensionY}/>;
