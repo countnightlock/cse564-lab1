@@ -7,8 +7,8 @@ import { dimensionsConfig } from '../utils/dimensions';
 class ChartContainer extends Component {
     render() {
         let chart;
-        if (typeof this.props.dimension !== 'string') {
-            const [dimensionX, dimensionY] = this.props.dimension;
+        if (this.props.dimensions.length == 2) {
+            const [dimensionX, dimensionY] = this.props.dimensions;
             chart = <ScatterPlot data={this.props.data} dimensionX={dimensionX} dimensionY={dimensionY}/>;
 
             return (

@@ -1,5 +1,5 @@
 // App.js
-import { FormControl, Grid, InputLabel, MenuItem, Select } from '@mui/material';
+import { Checkbox, FormControl, Grid, InputLabel, ListItemText, MenuItem, OutlinedInput, Select } from '@mui/material';
 import React, { Component } from 'react';
 import './App.css';
 import ChartContainer from './ui/ChartContainer';
@@ -10,7 +10,7 @@ import { fetchData } from './utils/file';
 class App extends Component {
     constructor(props) {
         super(props);
-        this.state = {data: [], dimension: 'acousticness'};
+        this.state = {data: [], dimension: 'acousticness', dimensions: []};
     }
 
     async componentDidMount() {
@@ -20,10 +20,14 @@ class App extends Component {
 
     handleDimensionSelect = (e) => {
         this.setState({ dimension: e.target.value });
+        this.setState({ dimensions: [] });
     }
 
     handleMultiDimensionSelect = (e) => {
-        this.setState({ dimension: e.target.value })
+        const dims = e.target.value;
+        console.log(dims);
+
+        this.setState({ dimensions: e.target.value });
     }
 
     render() {
@@ -48,16 +52,21 @@ class App extends Component {
                         </FormControl>
                         <FormControl fullWidth>
                             <Select
-                                multiple
                                 labelId="dimension-multi-select-label"
                                 id="dimension-multi-select"
-                                value={[this.state.dimension]}
-                                label="Dimension"
+                                multiple
+                                value={this.state.dimensions}
+                                renderValue={(selected) => selected.join(', ')}
+                                label="Dimensions"
+                                input={<OutlinedInput label="Name" />}
                                 onChange={this.handleMultiDimensionSelect}
                             >
                                 {
                                     Array.from(dimensionsConfig.values()).map((value) => {
-                                        return <MenuItem key={value.get('name')} value={value.get('name')}>{value.get('title')}</MenuItem>
+                                        return <MenuItem key={value.get('name') + 'multi'} value={value.get('name')}>
+                                            <Checkbox checked={this.state.dimensions.indexOf(value.get('name')) > -1} />
+                                            <ListItemText primary={value.get('title')} />
+                                        </MenuItem>
                                     })
                                 }
                             </Select>
@@ -66,7 +75,7 @@ class App extends Component {
                 </Grid>
                 <Grid xs={9}>
                     <div>
-                        <ChartContainer dimension={this.state.dimension} data={this.state.data} />
+                        <ChartContainer dimension={this.state.dimension} dimensions={this.state.dimensions} data={this.state.data} />
                     </div>
                 </Grid>
             </Grid>
