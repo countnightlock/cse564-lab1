@@ -9,9 +9,11 @@ class ChartContainer extends Component {
         let chart;
         if (!this.props.dimension && this.props.dimensions.length !== 2) {
             return (
-                <p>
-                    Select a dimension to chart.
-                </p>
+                <div>
+                    <p>
+                        Either select one dimension for a bar chart, or two for a scatterplot.
+                    </p>
+                </div>
             );
         }
 
