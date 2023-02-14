@@ -1,5 +1,5 @@
 // App.js
-import { Checkbox, FormControl, Grid, InputLabel, ListItemText, MenuItem, OutlinedInput, Select } from '@mui/material';
+import { Checkbox, Divider, FormControl, Grid, InputLabel, ListItemText, MenuItem, OutlinedInput, Select, Stack } from '@mui/material';
 import React, { Component } from 'react';
 import './App.css';
 import ChartContainer from './ui/ChartContainer';
@@ -24,17 +24,15 @@ class App extends Component {
     }
 
     handleMultiDimensionSelect = (e) => {
-        const dims = e.target.value;
-        console.log(dims);
-
         this.setState({ dimensions: e.target.value });
     }
 
     render() {
         return (
             <Grid container spacing={1}>
-                <Grid xs={3}>
-                    <div>
+                <Grid item xs={3}>
+                    <Stack spacing={2} divider={<Divider orientation='horizontal' flexItem/>} >
+                        <h3>Menu</h3>
                         <FormControl fullWidth>
                             <Select
                                 labelId="dimension-select-label"
@@ -71,9 +69,9 @@ class App extends Component {
                                 }
                             </Select>
                         </FormControl>
-                    </div>
+                    </Stack>
                 </Grid>
-                <Grid xs={9}>
+                <Grid item xs={9}>
                     <div>
                         <ChartContainer dimension={this.state.dimension} dimensions={this.state.dimensions} data={this.state.data} />
                     </div>
