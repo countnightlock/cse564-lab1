@@ -3,7 +3,7 @@ import * as d3 from 'd3';
 import { Component } from 'react';
 import { Element } from 'react-faux-dom';
 
-import { dimensions } from '../utils/dimensions';
+import { dimensionsConfig } from '../utils/dimensions';
 
 class BarChart extends Component {
 
@@ -66,7 +66,7 @@ class BarChart extends Component {
         const xAxis = d3.axisBottom()
             .scale(xScale)
             .tickFormat((dv, i) => {
-                const val = dimensions.get(dimension).get('valueMap').get(dv)
+                const val = dimensionsConfig.get(dimension).get('valueMap').get(dv)
                 return val ? val : '???';
             });
 
@@ -89,7 +89,7 @@ class BarChart extends Component {
             .attr('fill', 'currentColor')
             .style('font-size', '12px')
             .style('text-anchor', 'end')
-            .text(dimensions.get(dimension).get('title') + ' →');
+            .text(dimensionsConfig.get(dimension).get('title') + ' →');
 
         chart.append('g')
             .classed('y-axis', true)

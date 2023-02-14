@@ -3,7 +3,7 @@ import * as d3 from 'd3';
 import { Component } from 'react';
 import { Element } from 'react-faux-dom';
 
-import { dimensions } from '../utils/dimensions';
+import { dimensionsConfig } from '../utils/dimensions';
 
 class ScatterPlot extends Component {
 
