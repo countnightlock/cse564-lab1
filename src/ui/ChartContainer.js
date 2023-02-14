@@ -34,9 +34,9 @@ class ChartContainer extends Component {
         } else {
             if (dimensionsConfig.get(this.props.dimension).get('type') === 'categorical') {
                 if (!this.props.sideways) {
-                    chart = <SidewaysBarChart data={this.props.data} dimension={this.props.dimension} sortFunction={(d) => (+d[this.props.dimension])}/>;
-                } else {
                     chart = <BarChart data={this.props.data} dimension={this.props.dimension} sortFunction={(d) => (+d[this.props.dimension])}/>;
+                } else {
+                    chart = <SidewaysBarChart data={this.props.data} dimension={this.props.dimension} sortFunction={(d) => (+d[this.props.dimension])}/>;
                 }
             } else {
                 if (!this.props.sideways) {

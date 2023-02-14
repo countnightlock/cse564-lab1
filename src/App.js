@@ -1,11 +1,19 @@
 // App.js
-import { Checkbox, Divider, FormControl, FormControlLabel, FormGroup, Grid, InputLabel, ListItemText, MenuItem, OutlinedInput, Select, Stack, Switch } from '@mui/material';
+import { Checkbox, Divider, FormControl, FormControlLabel, FormGroup, Grid, InputLabel, ListItemText, MenuItem, OutlinedInput, Select, Stack, Switch, TextField } from '@mui/material';
 import React, { Component } from 'react';
 import './App.css';
 import ChartContainer from './ui/ChartContainer';
 import { dimensionsConfig } from './utils/dimensions';
 
 import { fetchData } from './utils/file';
+
+const gridStyles = {
+    paddingBottom: 2,
+    paddingRight: 2,
+    marginTop: 2,
+    marginLeft: "auto",
+    marginRight: "auto",
+};
 
 class App extends Component {
     constructor(props) {
@@ -34,46 +42,47 @@ class App extends Component {
 
     render() {
         return (
-            <Grid container spacing={1}>
+            <Grid container spacing={3} justifyContent='space-around' sx={gridStyles}>
                 <Grid item xs={3}>
                     <Stack spacing={2} divider={<Divider orientation='horizontal' flexItem/>} >
                         <h3>Menu</h3>
-                        <FormControl fullWidth>
-                            <Select
-                                labelId="dimension-select-label"
-                                id="dimension-select"
-                                value={this.state.dimension}
-                                label="Dimension"
-                                onChange={this.handleDimensionSelect}
-                            >
-                                {
-                                    Array.from(dimensionsConfig.values()).map((value) => {
-                                        return <MenuItem key={value.get('name')} value={value.get('name')}>{value.get('title')}</MenuItem>
-                                    })
-                                }
-                            </Select>
-                        </FormControl>
-                        <FormControl fullWidth>
-                            <Select
-                                labelId="dimension-multi-select-label"
-                                id="dimension-multi-select"
-                                multiple
-                                value={this.state.dimensions}
-                                renderValue={(selected) => selected.join(', ')}
-                                label="Dimensions"
-                                input={<OutlinedInput label="Name" />}
-                                onChange={this.handleMultiDimensionSelect}
-                            >
-                                {
-                                    Array.from(dimensionsConfig.values()).map((value) => {
-                                        return <MenuItem key={value.get('name') + 'multi'} value={value.get('name')}>
-                                            <Checkbox checked={this.state.dimensions.indexOf(value.get('name')) > -1} />
-                                            <ListItemText primary={value.get('title')} />
-                                        </MenuItem>
-                                    })
-                                }
-                            </Select>
-                        </FormControl>
+                        <TextField
+                            labelId='dimension-select-label'
+                            id='dimension-select'
+                            select
+                            SelectProps={{
+                                value: this.state.dimension
+                            }}
+                            label="Dimension for BarChart"
+                            onChange={this.handleDimensionSelect}
+                        >
+                            {
+                                Array.from(dimensionsConfig.values()).map((value) => {
+                                    return <MenuItem key={value.get('name')} value={value.get('name')}>{value.get('title')}</MenuItem>
+                                })
+                            }
+                        </TextField>
+                        <TextField
+                            labelId='multi-select-label'
+                            id='dimension-multi-select'
+                            select
+                            SelectProps={{
+                                multiple: true,
+                                renderValue: (selected) => selected.join(', '),
+                                value: this.state.dimensions
+                            }}
+                            label='Dimensions for ScatterPlot'
+                            onChange={this.handleMultiDimensionSelect}
+                        >
+                            {
+                                Array.from(dimensionsConfig.values()).map((value) => {
+                                    return <MenuItem key={value.get('name') + 'multi'} value={value.get('name')}>
+                                        <Checkbox checked={this.state.dimensions.indexOf(value.get('name')) > -1} />
+                                        <ListItemText primary={value.get('title')} />
+                                    </MenuItem>
+                                })
+                            }
+                        </TextField>
                         <FormGroup>
                             <FormControlLabel control={<Switch onChange={this.handleToggleSwitch} />} label="Turn Sideways" />
                         </FormGroup>
