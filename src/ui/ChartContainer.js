@@ -7,9 +7,18 @@ import { dimensionsConfig } from '../utils/dimensions';
 class ChartContainer extends Component {
     render() {
         let chart;
-        if (this.props.dimensions) {
-            const [dimensionX, dimensionY] = this.props.dimensions.split(',');
+        if (typeof this.props.dimension !== 'string') {
+            const [dimensionX, dimensionY] = this.props.dimension;
             chart = <ScatterPlot data={this.props.data} dimensionX={dimensionX} dimensionY={dimensionY}/>;
+
+            return (
+                <div>
+                    <h1>{`${dimensionsConfig.get(dimensionX).get('title')} vs ${dimensionsConfig.get(dimensionY).get('title')}`}</h1>
+                    {chart}
+                    <p>{dimensionsConfig.get(dimensionX).get('description')}</p>
+                    <p>{dimensionsConfig.get(dimensionY).get('description')}</p>
+                </div>
+            );
         } else {
             if (dimensionsConfig.get(this.props.dimension).get('type') === 'categorical') {
                 chart = <BarChart data={this.props.data} dimension={this.props.dimension} sortFunction={(d) => (+d[this.props.dimension])}/>;
