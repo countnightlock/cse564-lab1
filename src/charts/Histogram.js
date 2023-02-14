@@ -31,8 +31,6 @@ class Histogram extends Component {
 
         const Y = Array.from(bins, bin => d3.sum(bin, i => Y0[i]));
 
-        console.log(Y);
-
         const xScale = d3.scaleLinear()
             .domain([
                bins[0].x0, bins[bins.length - 1].x1
