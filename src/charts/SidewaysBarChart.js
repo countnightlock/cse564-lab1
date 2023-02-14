@@ -4,6 +4,7 @@ import { Component } from 'react';
 import { Element } from 'react-faux-dom';
 
 import { dimensionsConfig } from '../utils/dimensions';
+import { SVG_HEIGHT, SVG_MARGINS, SVG_WIDTH } from '../utils/config';
 
 class SidewaysBarChart extends Component {
 
@@ -60,6 +61,7 @@ class SidewaysBarChart extends Component {
             .attr('dy', yScale.bandwidth()/2)
             .attr('y', d => yScale(d[0]))
             .attr('dx', d => 6)
+            .style('font-size', '10px')
             .style('text-anchor', 'beginning')
             .text(d => d[1]);
         
@@ -86,7 +88,7 @@ class SidewaysBarChart extends Component {
             .attr('x', width)
             .attr('y', 27)
             .attr('fill', 'currentColor')
-            .style('font-size', '12px')
+            .style('font-size', '10px')
             .style('text-anchor', 'end')
             .text('Frequency →');
             
@@ -100,14 +102,14 @@ class SidewaysBarChart extends Component {
             .attr('x', 0)
             .attr('y', -10)
             .attr('fill', 'currentColor')
-            .style('font-size', '12px')
+            .style('font-size', '10px')
             .style('text-anchor', 'middle')
             .text('↑' + dimensionsConfig.get(dimension).get('title'));
     }
 
     drawChart() {
-        const width = 800;
-        const height = 600;
+        const width = SVG_WIDTH;
+        const height = SVG_HEIGHT;
 
         const div = new Element('div');
         const svg = d3.select(div)
@@ -118,12 +120,7 @@ class SidewaysBarChart extends Component {
             .style('height', 'auto')
             .style('height', 'intrinsic');
 
-        const margins = {
-            top: 60,
-            bottom: 100,
-            left: 80,
-            right: 40
-        };
+        const margins = SVG_MARGINS;
 
         const chart = svg.append('g')
             .classed('display', true)

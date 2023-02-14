@@ -25,7 +25,7 @@ class ChartContainer extends Component {
 
             return (
                 <div>
-                    <h1>{`${dimensionsConfig.get(dimensionX).get('title')} vs ${dimensionsConfig.get(dimensionY).get('title')}`}</h1>
+                    <h3>{`${dimensionsConfig.get(dimensionX).get('title')} vs ${dimensionsConfig.get(dimensionY).get('title')}`}</h3>
                     {chart}
                     <p>{dimensionsConfig.get(dimensionX).get('description')}</p>
                     <p>{dimensionsConfig.get(dimensionY).get('description')}</p>
@@ -33,17 +33,23 @@ class ChartContainer extends Component {
             );
         } else {
             if (dimensionsConfig.get(this.props.dimension).get('type') === 'categorical') {
-                chart = <BarChart data={this.props.data} dimension={this.props.dimension} sortFunction={(d) => (+d[this.props.dimension])}/>;
-                chart = <SidewaysBarChart data={this.props.data} dimension={this.props.dimension} sortFunction={(d) => (+d[this.props.dimension])}/>;
+                if (!this.props.sideways) {
+                    chart = <SidewaysBarChart data={this.props.data} dimension={this.props.dimension} sortFunction={(d) => (+d[this.props.dimension])}/>;
+                } else {
+                    chart = <BarChart data={this.props.data} dimension={this.props.dimension} sortFunction={(d) => (+d[this.props.dimension])}/>;
+                }
             } else {
-                chart = <Histogram data={this.props.data} dimension={this.props.dimension}/>;
-                chart = <SidewaysHistogram data={this.props.data} dimension={this.props.dimension}/>;
+                if (!this.props.sideways) {
+                    chart = <Histogram data={this.props.data} dimension={this.props.dimension}/>;
+                } else {
+                    chart = <SidewaysHistogram data={this.props.data} dimension={this.props.dimension}/>;
+                }
             }
         }
 
         return (
             <div>
-                <h1>{dimensionsConfig.get(this.props.dimension).get('title')}</h1>
+                <h3>{dimensionsConfig.get(this.props.dimension).get('title')}</h3>
                 {chart}
                 <p>{dimensionsConfig.get(this.props.dimension).get('description')}</p>
             </div>

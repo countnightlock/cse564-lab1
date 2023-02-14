@@ -1,5 +1,5 @@
 // App.js
-import { Checkbox, Divider, FormControl, Grid, InputLabel, ListItemText, MenuItem, OutlinedInput, Select, Stack } from '@mui/material';
+import { Checkbox, Divider, FormControl, FormControlLabel, FormGroup, Grid, InputLabel, ListItemText, MenuItem, OutlinedInput, Select, Stack, Switch } from '@mui/material';
 import React, { Component } from 'react';
 import './App.css';
 import ChartContainer from './ui/ChartContainer';
@@ -10,7 +10,7 @@ import { fetchData } from './utils/file';
 class App extends Component {
     constructor(props) {
         super(props);
-        this.state = {data: [], dimension: '', dimensions: []};
+        this.state = {data: [], dimension: '', dimensions: [], sideways: false};
     }
 
     async componentDidMount() {
@@ -24,8 +24,12 @@ class App extends Component {
     }
 
     handleMultiDimensionSelect = (e) => {
-        this.setState( {dimension : ""});
+        this.setState({ dimension : ""});
         this.setState({ dimensions: e.target.value });
+    }
+
+    handleToggleSwitch = (e) => {
+        this.setState({ sideways : !this.state.sideways})
     }
 
     render() {
@@ -70,11 +74,14 @@ class App extends Component {
                                 }
                             </Select>
                         </FormControl>
+                        <FormGroup>
+                            <FormControlLabel control={<Switch onChange={this.handleToggleSwitch} />} label="Turn Sideways" />
+                        </FormGroup>
                     </Stack>
                 </Grid>
                 <Grid item xs={9}>
                     <div>
-                        <ChartContainer dimension={this.state.dimension} dimensions={this.state.dimensions} data={this.state.data} />
+                        <ChartContainer dimension={this.state.dimension} dimensions={this.state.dimensions} data={this.state.data} sideways={this.state.sideways}/>
                     </div>
                 </Grid>
             </Grid>
