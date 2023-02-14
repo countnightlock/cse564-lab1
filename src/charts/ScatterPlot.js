@@ -40,13 +40,35 @@ class ScatterPlot extends Component {
         const dimensionY = this.props.dimensionY;
         const data = this.props.data;
 
-        const xScale = d3.scaleLinear()
-            .domain(d3.extent(data, d => d[dimensionX])).nice()
-            .range([0, width]);
+        let xScale, yScale;
 
-        const yScale = d3.scaleLinear()
-            .domain(d3.extent(data, d => d[dimensionY])).nice()
-            .range([height, 0]);
+        const xIsCategorical = dimensionsConfig.get(dimensionX).get('type') !== 'numerical';
+        const yIsCategorical = dimensionsConfig.get(dimensionY).get('type') !== 'numerical';
+
+        if (xIsCategorical) {
+            xScale = d3.scaleBand()
+                .domain(data
+                    .sort((a, b) => +a[dimensionX] - +b[dimensionX])
+                    .map(d => d[dimensionX])
+                )
+                .range([0, width]);
+        } else {
+            xScale = d3.scaleLinear()
+                .domain(d3.extent(data, d => d[dimensionX])).nice()
+                .range([0, width]);
+        }
+
+        if (yIsCategorical) {
+            yScale = d3.scaleBand()
+                .domain(data
+                    .sort((a, b) => +a[dimensionY] - +b[dimensionY])
+                    .map(d => d[dimensionY]))
+                .range([height, 0]);
+        } else {
+            yScale = d3.scaleLinear()
+                .domain(d3.extent(data, d => d[dimensionY])).nice()
+                .range([height, 0]);
+        }
 
         const yGridLines = d3.axisLeft()
             .scale(yScale)
@@ -65,18 +87,17 @@ class ScatterPlot extends Component {
             .enter()
             .append('circle')
             .classed('dot', true)
-            .attr('cx', d => xScale(d[dimensionX]))
-            .attr('cy', d => yScale(d[dimensionY]))
+            .attr('cx', d => xScale(d[dimensionX]) + (xIsCategorical ? xScale.bandwidth()/2 : 0))
+            .attr('cy', d => yScale(d[dimensionY]) + (yIsCategorical ? yScale.bandwidth()/2 : 0))
             .attr('r', 2.0)
+            .attr('opacity', xIsCategorical || yIsCategorical ? 0.2 : 1.0)
             .style('stroke', 'black')
             .style('fill', '#1DB954');
 
         const xAxis = d3.axisBottom()
-            .scale(xScale)
-            .ticks(15);
+            .scale(xScale);
 
         const yAxis = d3.axisLeft()
-            .ticks(15)
             .scale(yScale);
 
         chart.append('g')
@@ -111,6 +132,7 @@ class ScatterPlot extends Component {
 
         const [x1, x2, y1, y2, r] = this.getBestFitLine(data, dimensionX, dimensionY, 500);
 
+        if (!xIsCategorical && !yIsCategorical) {
         chart.append('line')
             .classed('best-fit', true)
             .attr('x1', xScale(x1))
@@ -127,6 +149,7 @@ class ScatterPlot extends Component {
             .style('text-anchor', 'end')
             .style('fill', 'red')
             .text(`R: ${parseFloat(r).toFixed(3)}`);
+        }
     }
 
     drawChart() {
