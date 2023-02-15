@@ -20,6 +20,9 @@ export async function fetchData() {
             tempo: +datum.tempo,
             duration_ms: +datum.duration_ms,
             time_signature: datum.time_signature,
+            album_popularity: +datum.album_popularity,
+            artist_popularity: +datum.artist_popularity,
+            release_date: +datum.release_date
         }
     });
 

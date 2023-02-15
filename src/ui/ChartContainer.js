@@ -13,7 +13,7 @@ class ChartContainer extends Component {
             return (
                 <div>
                     <p>
-                        Either select one dimension for a bar chart, or two for a scatterplot.
+                        Either select one dimension for a bar chart or histogram, or two for a scatterplot.
                     </p>
                 </div>
             );

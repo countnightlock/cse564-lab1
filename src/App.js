@@ -53,7 +53,7 @@ class App extends Component {
                             SelectProps={{
                                 value: this.state.dimension
                             }}
-                            label="Dimension for BarChart"
+                            label="Dimension for BarChart/Histogram"
                             onChange={this.handleDimensionSelect}
                         >
                             {

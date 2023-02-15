@@ -14,6 +14,24 @@ function createDimensions() {
         return map;
     })());
 
+    map.set('album_popularity', (() => {
+        const map = new Map();
+        map.set('name', 'album_popularity');
+        map.set('title', 'Album Popularity');
+        map.set('type', 'numerical');
+        map.set('description', 'The popularity of the album. The value will be between 0 and 100, with 100 being the most popular.');
+        return map;
+    })());
+
+    map.set('artist_popularity', (() => {
+        const map = new Map();
+        map.set('name', 'artist_popularity');
+        map.set('title', 'Artist Popularity');
+        map.set('type', 'numerical');
+        map.set('description', 'The popularity of the artist. The value will be between 0 and 100, with 100 being the most popular. The artist\'s popularity is calculated from the popularity of all the artist\'s tracks.');
+        return map;
+    })());
+
     map.set('danceability', (() => {
         const map = new Map();
         map.set('name', 'danceability');
@@ -101,6 +119,15 @@ function createDimensions() {
         valueMap.set('0', 'Minor');
         valueMap.set('1', 'Major');
         map.set('valueMap', valueMap);
+        return map;
+    })());
+
+    map.set('release_date', (() => {
+        const map = new Map();
+        map.set('name', 'release_date');
+        map.set('title', 'Release Date');
+        map.set('type', 'numerical');
+        map.set('description', 'The date the album was first released.');
         return map;
     })());
 

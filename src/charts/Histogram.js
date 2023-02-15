@@ -99,7 +99,8 @@ class Histogram extends Component {
             .attr('transform', `translate(0, ${height})`)
             .call(xAxis)
             .selectAll('text')
-            .style('text-anchor', 'middle');
+            .attr('transform', dimension === 'release_date' ? 'rotate(-45)' : '')
+            .style('text-anchor', 'end');
 
         chart.select('.x-axis')
             .append('text')
@@ -108,7 +109,7 @@ class Histogram extends Component {
             .attr('fill', 'currentColor')
             .style('font-size', '10px')
             .style('text-anchor', 'end')
-            .text('Energy' + ' →');
+            .text(dimensionsConfig.get(dimension).get('title') + ' →');
 
         chart.append('g')
             .classed('y-axis', true)
