@@ -91,7 +91,7 @@ class Histogram extends Component {
             .ticks(bins.length);
 
         const yAxis = d3.axisLeft()
-            .ticks(15)
+            .ticks(bins.length)
             .scale(yScale);
 
         chart.append('g')
